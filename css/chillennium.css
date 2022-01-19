@@ -1,442 +1,455 @@
-@font-face{
-	font-family: "Century Gothic";
-	src: url(../fonts/gothic.eot), url(../fonts/gothic.ttf), url(../fonts/gothic.woff);
+@font-face {
+  font-family: "Century Gothic";
+  src: url(../fonts/gothic.eot), url(../fonts/gothic.ttf),
+    url(../fonts/gothic.woff);
 }
-@font-face{
-	font-family: "Droid Serif";
-	src: url(../fonts/DroidSerif.woff);
+@font-face {
+  font-family: "Droid Serif";
+  src: url(../fonts/DroidSerif.woff);
 }
-@font-face{
-	font-family: "Roboto Slab";
-	src: url(../fonts/RobotoSlab.woff);
+@font-face {
+  font-family: "Roboto Slab";
+  src: url(../fonts/RobotoSlab.woff);
 }
 
 a {
-    color: rgb(136, 211, 245);
+  color: rgb(136, 211, 245);
 }
 
 body {
-	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-	letter-spacing: 1px;
-	font-size: 12pt;
-	color: white;
-	background-color: #343534;
-	margin: 0;
-	overflow-x: hidden;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  letter-spacing: 1px;
+  font-size: 12pt;
+  color: white;
+  background-color: #343534;
+  margin: 0;
+  overflow-x: hidden;
 }
 h1 {
-    font-size: 30pt;
-    margin-bottom: 0px;
-    font-weight: bold;
-    
+  font-size: 30pt;
+  margin-bottom: 0px;
+  font-weight: bold;
 }
 h2 {
-    text-align: center;
-    font-weight: normal;
-    font-size: 28pt;
-    margin-top: 0px;
-    margin-bottom: 2px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 28pt;
+  margin-top: 0px;
+  margin-bottom: 2px;
 }
 h3 {
-    font-size: 24pt;
-    font-weight: normal;
-    margin-top: 2px;
-    margin-bottom: 2px;
+  font-size: 24pt;
+  font-weight: normal;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 h4 {
-    margin-top: 2px;
-    margin-bottom: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 /* For mentor work place page company thing*/
 h7 {
-    font-size: 20px;
-    font-style: italic;
+  font-size: 20px;
+  font-style: italic;
 }
 
 .accordion-hide {
-    display: none;
+  display: none;
 }
 
 .navbar {
-    background: linear-gradient(to left, rgb(136, 211, 245) 0%, rgb(25, 162, 203) 35%, rgb(172, 74, 156) 60%, rgb(220, 42, 115) 100%);
-    background-color: #12718a;
-    
-    z-index: 100;
-    position: sticky;
-    top: 0;
-    left: 0;
-    width: 100%;
-    
-    text-align: center;
-    font-size: 1.7vw;
-    letter-spacing: 0px;
-    text-transform: uppercase;
-    font-weight: 600;
-    padding-bottom: 10px;
-    padding-top: 10px;
+  background: linear-gradient(
+    to left,
+    rgb(136, 211, 245) 0%,
+    rgb(25, 162, 203) 35%,
+    rgb(172, 74, 156) 60%,
+    rgb(220, 42, 115) 100%
+  );
+  background-color: #12718a;
+
+  z-index: 100;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  text-align: center;
+  font-size: 1.7vw;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 .navbar a {
-    color: inherit;
-    text-decoration: inherit;
+  color: inherit;
+  text-decoration: inherit;
 }
 
 .topbanner {
-    text-align: center;
-    background-color: #dc2673;
-    width: 100%;
-    align-content: center;
-    text-transform: uppercase;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    font-weight: bold;
-    font-size: 22pt;
+  text-align: center;
+  background-color: #dc2673;
+  width: 100%;
+  align-content: center;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-weight: bold;
+  font-size: 22pt;
 }
 
 .footerberg {
-    width: 15vmin;
-    padding-left: 15px;
-    padding-right: 15px;
-    float: left;
-    margin-top: calc(-.5px - 7.6vmin);
-    margin-right: -100%;
+  width: 15vmin;
+  padding-left: 15px;
+  padding-right: 15px;
+  float: left;
+  margin-top: calc(-0.5px - 7.6vmin);
+  margin-right: -100%;
 }
 
 .smicon {
-    border: none;
-    width: 30px;
+  border: none;
+  width: 30px;
 }
 
 .contactfooter {
-    background-color: #12718a;
-    box-shadow: 0px 500px 0px 500px #12718a;
-    font-size: 11.5pt;
-    width: 100%;
-    padding-bottom: 15px;
+  background-color: #12718a;
+  box-shadow: 0px 500px 0px 500px #12718a;
+  font-size: 11.5pt;
+  width: 100%;
+  padding-bottom: 15px;
 }
 .contacttable {
-    width: 80%;
-    border-collapse: separate;
-    text-align: center;
-    margin: auto;
+  width: 80%;
+  border-collapse: separate;
+  text-align: center;
+  margin: auto;
 }
 .contacttable td {
-    padding: 10px;
-    display: inline-block;
+  padding: 10px;
+  display: inline-block;
 }
 
 .contactbow {
-    background: linear-gradient(to left, rgb(136, 211, 245) 0%, rgb(25, 162, 203) 35%, rgb(172, 74, 156) 60%, rgb(220, 42, 115) 100%);
-    background-color: #12718a;
-    
-    width: 100%;
-    padding-left: 24vmin;
-    text-transform: uppercase;
-    text-align: left;
-    margin-top: 35px;
-    font-weight: bold;
+  background: linear-gradient(
+    to left,
+    rgb(136, 211, 245) 0%,
+    rgb(25, 162, 203) 35%,
+    rgb(172, 74, 156) 60%,
+    rgb(220, 42, 115) 100%
+  );
+  background-color: #12718a;
+
+  width: 100%;
+  padding-left: 24vmin;
+  text-transform: uppercase;
+  text-align: left;
+  margin-top: 35px;
+  font-weight: bold;
 }
 
 .frontbanner {
-    text-align: center;
-    background-color: #287C96;
-    margin: auto;
-    width: 70%;
-    align-content: center;
-    padding-top: 0.02px;
-    padding-bottom: 20px;
-    margin-top: 25px;
-    margin-bottom: 0px;
-    border-radius: 20px;
+  text-align: center;
+  background-color: #287c96;
+  margin: auto;
+  width: 70%;
+  align-content: center;
+  padding-top: 0.02px;
+  padding-bottom: 20px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  border-radius: 20px;
 }
 .frontbanner h1 {
-    font-size: 48pt;
-    font-weight: normal;
-    letter-spacing: 5px;
-    margin-bottom: 10px;
+  font-size: 48pt;
+  font-weight: normal;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
 }
 .frontbanner h2 {
-    font-size: 2.2vw;
-    margin-top: 0px;
-    padding: 3px;
+  font-size: 2.2vw;
+  margin-top: 0px;
+  padding: 3px;
 }
 .frontbanner img {
-    width: 90%;
-    max-width: 512px;
+  width: 90%;
+  max-width: 512px;
 }
 
 .winnertable {
-    table-layout: fixed;
-    margin: auto;
-    width: 90%;
-    max-width: 1200px;
-    overflow-x: auto;
+  table-layout: fixed;
+  margin: auto;
+  width: 90%;
+  max-width: 1200px;
+  overflow-x: auto;
 }
 .winnertable a {
-    color: inherit;
-    text-decoration: inherit;
+  color: inherit;
+  text-decoration: inherit;
 }
 
 .sponsortable {
-    table-layout: fixed;
-    margin: auto;
-    width: 90%;
-    max-width: 1000px;
-    overflow-x: auto;
+  table-layout: fixed;
+  margin: auto;
+  width: 90%;
+  max-width: 1000px;
+  overflow-x: auto;
 }
 .sponsortable td {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 .sponsorsbig td img {
-    width: 75%;
-    padding-bottom: 7px;
-    padding-top: 7px;
+  width: 75%;
+  padding-bottom: 7px;
+  padding-top: 7px;
 }
 .sponsorsmed td img {
-    margin: auto;
-    width: 60%;
-    padding-bottom: 7px;
-    padding-top: 7px;
+  margin: auto;
+  width: 60%;
+  padding-bottom: 7px;
+  padding-top: 7px;
 }
 .sponsorssmall td img {
-    margin: auto;
-    width: 45%;
-    padding-bottom: 7px;
-    padding-top: 7px;
+  margin: auto;
+  width: 45%;
+  padding-bottom: 7px;
+  padding-top: 7px;
 }
 .sponsorsall {
-    width: 80%;
-    max-width: 1000px;
-    padding: 30px;
+  width: 80%;
+  max-width: 1000px;
+  padding: 30px;
 }
 
 .bigpolaroid {
-    background-color: black;
-    width: 80%;
-    height: 87%;
-    font-weight: normal;
-    font-size: 1.3vw;
-    margin: auto;
-    padding-bottom: 7px;
-    padding-top: 7px;
+  background-color: black;
+  width: 80%;
+  height: 87%;
+  font-weight: normal;
+  font-size: 1.3vw;
+  margin: auto;
+  padding-bottom: 7px;
+  padding-top: 7px;
 }
 .bigpolaroid img {
-    width: 90%;
+  width: 90%;
 }
 .bigpolaroid h4 {
-    font-size: 2vw;
+  font-size: 2vw;
 }
 
 .polaroid {
-    margin: auto;
-    background-color: black;
-    width: 80%;
-    height: 87%;
-    font-weight: normal;
-    font-size: 1.0vw;
-    padding-bottom: 7px;
-    padding-top: 7px;
+  margin: auto;
+  background-color: black;
+  width: 80%;
+  height: 87%;
+  font-weight: normal;
+  font-size: 1vw;
+  padding-bottom: 7px;
+  padding-top: 7px;
 }
 .polaroid img {
-    width: 90%;
+  width: 90%;
 }
 .polaroid h4 {
-    font-size: 1.3vw;
+  font-size: 1.3vw;
 }
 
 .fixedpolaroid {
-    background-color: black;
-    width: 20%;
-    font-size: 11pt;
-    padding: 5px;
-    margin: 5px;
-    text-align: center;
-    display: inline-block;
-    vertical-align: middle;
+  background-color: black;
+  width: 20%;
+  font-size: 11pt;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
 }
 .fixedpolaroid img {
-    width: 80%;
+  width: 80%;
 }
 .fixedpolaroid h4 {
-    font-size: 12pt;
+  font-size: 12pt;
 }
 .fixedpolaroid h7 {
-    font-size: 8pt;
-    line-height: 1px;
+  font-size: 8pt;
+  line-height: 1px;
 }
 
 .biggameslist {
-    text-align: center;
+  text-align: center;
 }
 .biggameslist a {
-    color: inherit;
-    text-decoration: inherit;
+  color: inherit;
+  text-decoration: inherit;
 }
 
 .borderimg {
-    width: 80%;
-    max-width: 1000px;
-    border-style: solid;
-    border-color: #060506;
-    border-width: 2.5vmin;
-    display: block;
-    margin: auto;
+  width: 80%;
+  max-width: 1000px;
+  border-style: solid;
+  border-color: #060506;
+  border-width: 2.5vmin;
+  display: block;
+  margin: auto;
 }
 .centerimg {
-    width: 90%;
-    max-width: 1000px;
-    display: block;
-    margin: auto;
-    margin-bottom: 1%;
+  width: 90%;
+  max-width: 1000px;
+  display: block;
+  margin: auto;
+  margin-bottom: 1%;
 }
 
 .infotbox {
-    width: 90%;
-    margin: auto;
-    padding-bottom: 20px;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 20px;
 }
-.infotbox p{
-    font-family: "Roboto Slab";
+.infotbox p {
+  font-family: "Roboto Slab";
 }
 
 .infocontent {
-    text-align: center;
+  text-align: center;
 }
-
 
 .listtbox {
-    width: 80%;
-    margin: auto;
-    padding-bottom: 20px;
-    text-align: left;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 20px;
+  text-align: left;
 }
 .listtbox p {
-    margin-top: 5px;
-    padding-bottom: 0px;
+  margin-top: 5px;
+  padding-bottom: 0px;
 }
 .listtbox h4 {
-    font-weight: normal;
-    font-size: 24px;
-    margin-left: -15px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+  font-weight: normal;
+  font-size: 24px;
+  margin-left: -15px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 .listtbox h5 {
-    font-weight: normal;
-    text-align: center;
-    font-size: 15pt;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    padding-bottom: 0px;
+  font-weight: normal;
+  text-align: center;
+  font-size: 15pt;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding-bottom: 0px;
 }
 
 .tiertable {
-    font-family: "Roboto Slab";
-    margin-left: 5%;
-    margin-top: 2%;
-    width: 90%;
-    max-width: 1200px;
-    overflow-x: auto;
-    font-size: 10pt;
+  font-family: "Roboto Slab";
+  margin-left: 5%;
+  margin-top: 2%;
+  width: 90%;
+  max-width: 1200px;
+  overflow-x: auto;
+  font-size: 10pt;
 }
 .tiertable h1 {
-    font-family: "Century Gothic";
-    margin-top: 0px;
-    text-transform: uppercase;
-    font-size: 24pt;
+  font-family: "Century Gothic";
+  margin-top: 0px;
+  text-transform: uppercase;
+  font-size: 24pt;
 }
 .tiertable h3 {
-    font-family: "Droid Serif";
-    font-size: 18pt;
+  font-family: "Droid Serif";
+  font-size: 18pt;
 }
 
 .tiericon {
-    vertical-align: top;
+  vertical-align: top;
 }
 .tiericon img {
-    vertical-align: top;
-    width: 100px;
-    float: right;
-    top: 0;
+  vertical-align: top;
+  width: 100px;
+  float: right;
+  top: 0;
 }
 
 .jmtable {
-    margin-left: -5%;
-    width: 110%;
-    max-width: 1200px;
-    overflow-x: auto;
+  margin-left: -5%;
+  width: 110%;
+  max-width: 1200px;
+  overflow-x: auto;
 }
 .jmtable h1 {
-    margin-top: 0px;
+  margin-top: 0px;
 }
 .jmicon {
-    vertical-align: middle;
-    text-align: center;
+  vertical-align: middle;
+  text-align: center;
 }
 .jmicon img {
-    height: 200px;
-    top: 0;
-    padding-right: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  height: 200px;
+  top: 0;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .accordionbtn {
-    cursor: pointer;
-    border: none;
-    outline: none;
-    
-    padding: 7px;
-    background-color: #dc2673;
-    width: 230px;
-    
-    color: inherit;
-	font-family: inherit;
-    font-size: inherit;
-    
-    transition: 0.15s;
+  cursor: pointer;
+  border: none;
+  outline: none;
+
+  padding: 7px;
+  background-color: #dc2673;
+  width: 230px;
+
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+
+  transition: 0.15s;
 }
-.btnactive, .accordionbtn:hover {
-    background-color: #991a50;
+.btnactive,
+.accordionbtn:hover {
+  background-color: #991a50;
 }
 
 .embed-container {
-    width: 60%;
-    height: 0;
-    padding-bottom: 30%;
-    margin-inline: auto;
-    margin-block: 4em;
-	outline: 5px solid #000;
-    position: relative;
+  width: 60%;
+  height: 0;
+  padding-bottom: 30%;
+  margin-inline: auto;
+  margin-block: 4em;
+  outline: 5px solid #000;
+  position: relative;
 }
 
 .embed-container iframe {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0; top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
 }
 
 video {
-    display: block;
-    width: 60%;
-    margin-inline: auto;
+  display: block;
+  width: 60%;
+  margin-inline: auto;
 }
 
 .survey-link {
-    margin: auto; 
-    display: block; 
-    width: fit-content; 
-    text-decoration: none;
+  margin: auto;
+  display: block;
+  width: fit-content;
+  text-decoration: none;
 
-    background-color:#242424;
-    padding: .5em;
+  background-color: #242424;
+  padding: 0.5em;
 
-    border-radius: 50px;
+  border-radius: 50px;
 
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 .survey-link:hover {
-    /* color:rgb(25, 162, 203); */
-    background-color: rgb(58, 58, 58);
+  /* color:rgb(25, 162, 203); */
+  background-color: rgb(58, 58, 58);
 }

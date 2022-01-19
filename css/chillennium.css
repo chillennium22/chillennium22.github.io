@@ -421,3 +421,22 @@ video {
     width: 60%;
     margin-inline: auto;
 }
+
+.survey-link {
+    margin: auto; 
+    display: block; 
+    width: fit-content; 
+    text-decoration: none;
+
+    background-color:#242424;
+    padding: .5em;
+
+    border-radius: 50px;
+
+    font-size: 1.5em;
+}
+
+.survey-link:hover {
+    /* color:rgb(25, 162, 203); */
+    background-color: rgb(58, 58, 58);
+}

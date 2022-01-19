@@ -415,3 +415,9 @@ h7 {
     height: 100%;
     left: 0; top: 0;
 }
+
+video {
+    display: block;
+    width: 60%;
+    margin-inline: auto;
+}

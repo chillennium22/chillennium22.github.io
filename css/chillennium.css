@@ -152,25 +152,33 @@ h7 {
   text-align: center;
   background-color: #287c96;
   margin: auto;
-  width: 70%;
+  width: clamp(150px, 70vw, 1000px);
   align-content: center;
   padding-top: 0.02px;
   padding-bottom: 20px;
-  margin-top: 25px;
-  margin-bottom: 0px;
+  margin-block: 3.5em;
   border-radius: 20px;
 }
+
 .frontbanner h1 {
   font-size: 48pt;
   font-weight: normal;
   letter-spacing: 5px;
   margin-bottom: 10px;
 }
+
 .frontbanner h2 {
-  font-size: 2.2vw;
+  font-size: clamp(14px, 2.2vw, 20px);
   margin-top: 0px;
   padding: 3px;
 }
+
+.frontbanner h3 {
+  font-size: clamp(25px, 4vw, 40px);
+  margin-top: 0px;
+  padding: 3px;
+}
+
 .frontbanner img {
   width: 90%;
   max-width: 512px;
@@ -421,18 +429,37 @@ h7 {
   position: relative;
 }
 
-.embed-container iframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
+.home-main-container {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  margin-inline: 2em;
+  margin-block: 1em;
 }
 
-video {
+@media screen and (max-width: 700px) {
+  .home-main-container {
+    flex-direction: column;
+  }
+}
+
+.home-container {
   display: block;
-  width: 60%;
+  width: clamp(300px, 40vw, 500px);
   margin-inline: auto;
+}
+
+.home-container h2 {
+  margin: 0.5em;
+  padding: 0;
+}
+
+.home-container video,
+.home-container iframe {
+  width: 100%;
+  aspect-ratio: 1.5;
 }
 
 .survey-link {

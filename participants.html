@@ -8,21 +8,15 @@
         <meta name="Description" content="For students by students" />
         <link rel="icon" href="media/favicon.png" type="image/png" />
         <link rel="stylesheet" href="css/chillennium.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body>
-        <table class="navbar">
-            <tr>
-                <td><a href="index.html">Home</a></td>
-                <td><a href="participants.html">2019 Competition</a></td>
-                <td><a href="lastyear.html">2018 Competition</a></td>
-                <td><a href="sponsors.html">Sponsors</a></td>
-                <td><a href="volunteers.html">Volunteers</a></td>
-                <td><a href="judges.html">Judges</a></td>
-                <td><a href="mentors.html">Mentors</a></td>
-                <td><a href="faq.html">FAQ</a></td>
-                <td><a href="pastjams.html">Past Jams</a></td>
-            </tr>
-        </table>
+        <table class="navbar" id="navbar"></table>
+        <script>
+            $(function () {
+                $("#navbar").load("navbar.html");
+            });
+        </script>
         <div class="topbanner">- 2019 Competition -</div>
 
         <div class="infocontent">
@@ -94,11 +88,6 @@
                     participants a 2-month license for Houdini absolutely free!
                     Find out more by clicking below.
                 </p>
-                <a href="houdini.html"
-                    ><img
-                        style="width: 100%"
-                        src="media/Houdini_IndieLicense.png"
-                /></a>
                 <h4>What to Bring</h4>
                 <p>
                     Participants will be required to bring a valid ID. You are
@@ -186,60 +175,11 @@
             </div>
         </div>
 
-        <div class="contactbow">Contact us</div>
-        <div class="contactfooter">
-            <img class="footerberg" src="media/footerice.png" />
-            <table style="float: right; width: 5%; margin-left: -100%">
-                <tr>
-                    <td>
-                        <a
-                            href="https://www.facebook.com/chillennium/"
-                            target="_blank"
-                            ><img src="media/bookface.png" class="smicon"
-                        /></a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a
-                            href="https://twitter.com/ChillenniumJam/"
-                            target="_blank"
-                            ><img src="media/tweeetr.png" class="smicon"
-                        /></a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a
-                            href="https://www.instagram.com/chillennium/"
-                            target="_blank"
-                            ><img src="media/insta.png" class="smicon"
-                        /></a>
-                    </td>
-                </tr>
-            </table>
-            <table class="contacttable" id="contact">
-                <tr>
-                    <td>
-                        <h4>General</h4>
-                        chillennium.gamejam@gmail.com<br /><br />
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <h4>Volunteers</h4>
-                        chillennium.volunteers@gmail.com<br /><br />
-                    </td>
-                    <td>
-                        <h4>Sponsors</h4>
-                        chillennium.sponsors@gmail.com<br /><br />
-                    </td>
-                    <td>
-                        <h4>Judges &amp; Mentors</h4>
-                        chillennium.industryrelations@gmail.com<br /><br />
-                    </td>
-                </tr>
-            </table>
-        </div>
+        <div id="footer"></div>
+        <script>
+            $(function () {
+                $("#footer").load("footer.html");
+            });
+        </script>
     </body>
 </html>

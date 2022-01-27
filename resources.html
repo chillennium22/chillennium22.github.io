@@ -8,24 +8,19 @@
         <meta name="Description" content="For students by students" />
         <link rel="icon" href="media/favicon.png" type="image/png" />
         <link rel="stylesheet" href="css/chillennium.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body>
-        <table class="navbar">
-            <tr>
-                <td><a href="index.html">Home</a></td>
-                <td><a href="participants.html">2019 Competition</a></td>
-                <td><a href="lastyear.html">2018 Competition</a></td>
-                <td><a href="sponsors.html">Sponsors</a></td>
-                <td><a href="volunteers.html">Volunteers</a></td>
-                <td><a href="judges.html">Judges</a></td>
-                <td><a href="mentors.html">Mentors</a></td>
-                <td><a href="faq.html">FAQ</a></td>
-                <td><a href="pastjams.html">Past Jams</a></td>
-            </tr>
-        </table>
+        <table class="navbar" id="navbar"></table>
+        <script>
+            $(function () {
+                $("#navbar").load("navbar.html");
+            });
+        </script>
+
         <div class="infocontent">
             <div class="listtbox">
-                <a href="https://forms.gle/eqEsM2UbFTbPUZG1" target="_blank"
+                <a href="https://forms.gle/KhTPozD1uze5X4v6A" target="_blank"
                     ><img
                         style="width: 100%"
                         src="media/Houdini_IndieLicense.png"
@@ -34,32 +29,22 @@
                 <p>
                     SideFX is offering Chillennium game jammers a free 2-month
                     Houdini Indie license to jam with! If you would like to
-                    receive your license please fill out the form below (or
-                    click
-                    <a
-                        href="https://forms.gle/eqEsM2UbFTbPUZG17"
-                        target="_blank"
-                        >here</a
-                    >). Please note the license period starts from
+                    receive your license please fill out the form below. Please
+                    note the license period starts from
                     <b
                         >when your request is processed, NOT from when you
                         download the software</b
                     >.
                 </p>
-                <div
-                    class="embed-container"
-                    style="height: 250px; width: 640px"
+
+                <a
+                    href="https://forms.gle/KhTPozD1uze5X4v6A"
+                    class="survey-link"
+                    style="color:#f26722"
                 >
-                    <iframe
-                        src="https://forms.gle/eqEsM2UbFTbPUZG17"
-                        width="640"
-                        height="1100"
-                        frameborder="0"
-                        marginheight="0"
-                        marginwidth="0"
-                        >Loading…</iframe
-                    >
-                </div>
+                    <b>Request Houdini Indie License</b>
+                </a>
+
                 <div style="width: 100%" class="PageContent">
                     <br />
                     <h2 style="text-align: center">Getting Started</h2>
@@ -103,5 +88,11 @@
                 </div>
             </div>
         </div>
+        <div id="footer"></div>
+        <script>
+            $(function () {
+                $("#footer").load("footer.html");
+            });
+        </script>
     </body>
 </html>

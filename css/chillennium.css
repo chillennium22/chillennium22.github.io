@@ -494,3 +494,44 @@ h7 {
     /* color:rgb(25, 162, 203); */
     background-color: rgb(58, 58, 58);
 }
+
+.art-contest {
+    width: clamp(530px, 45vw, 600px);
+    margin-inline: auto;
+}
+
+.art-poster {
+    width: 100%;
+    display: block;
+    margin-inline: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .art-contest {
+        width: 100vw;
+    }
+}
+
+.art-submission {
+    display: block;
+    width: fit-content;
+    margin-inline: auto;
+    text-decoration: none;
+
+    font-size: 1.5em;
+    padding-block: 1em;
+    margin-block: .5em;
+
+    border: 10px #ac1d58 solid;
+    width: calc(100% - 20px);
+    text-align: center;
+
+    color: white;
+    background-color: #dd2874;
+
+    transition: all .2s ease-in-out;
+}
+
+.art-submission:hover {
+    filter: brightness(1.1);
+}

@@ -1,11 +1,22 @@
-<tr>
-    <td><a href="index.html">Home</a></td>
-    <td><a href="participants.html">2019 Competition</a></td>
-    <td><a href="resources.html">Resources</a></td>
-    <td><a href="sponsors.html">Sponsors</a></td>
-    <td><a href="volunteers.html">Volunteers</a></td>
-    <td><a href="judges.html">Judges</a></td>
-    <td><a href="mentors.html">Mentors</a></td>
-    <td><a href="faq.html">FAQ</a></td>
-    <td><a href="pastjams.html">Past Jams</a></td>
-</tr>
+<div class="navbar-toggle" id="navbar-toggle">
+    <div class="navbar-toggle-lines" id="navbar-toggle-lines"></div>
+</div>
+<ul id="navbar-list" class="">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="participants.html">2019 Competition</a></li>
+    <li><a href="resources.html">Resources</a></li>
+    <li><a href="sponsors.html">Sponsors</a></li>
+    <li><a href="volunteers.html">Volunteers</a></li>
+    <li><a href="judges.html">Judges</a></li>
+    <li><a href="mentors.html">Mentors</a></li>
+    <li><a href="faq.html">FAQ</a></li>
+    <li><a href="pastjams.html">Past Jams</a></li>
+</ul>
+<script>
+    $(function () {
+        $("#navbar-toggle").on("click", () => {
+            $("#navbar-list").toggleClass("shown");
+            $("#navbar-toggle-lines").toggleClass("active");
+        });
+    });
+</script>

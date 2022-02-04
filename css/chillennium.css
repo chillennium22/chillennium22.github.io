@@ -1,15 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 @font-face {
-    font-family: "Century Gothic";
-    src: url(../fonts/gothic.eot), url(../fonts/gothic.ttf),
-        url(../fonts/gothic.woff);
-}
-@font-face {
-    font-family: "Droid Serif";
-    src: url(../fonts/DroidSerif.woff);
-}
-@font-face {
-    font-family: "Roboto Slab";
-    src: url(../fonts/RobotoSlab.woff);
+    font-family: "Font Awesome";
+    src: url('../fonts/fa-brands-400.ttf');
 }
 
 a {
@@ -17,7 +9,7 @@ a {
 }
 
 body {
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
     letter-spacing: 1px;
     font-size: 12pt;
     color: white;
@@ -28,7 +20,7 @@ body {
 h1 {
     font-size: 30pt;
     margin-bottom: 0px;
-    font-weight: bold;
+    font-weight: 800;
 }
 h2 {
     text-align: center;
@@ -36,16 +28,19 @@ h2 {
     font-size: 28pt;
     margin-top: 0px;
     margin-bottom: 2px;
+    font-weight: 800;
 }
 h3 {
     font-size: 24pt;
     font-weight: normal;
     margin-top: 2px;
     margin-bottom: 2px;
+    font-weight: 700;
 }
 h4 {
     margin-top: 2px;
     margin-bottom: 2px;
+    font-weight: 900;
 }
 /* For mentor work place page company thing*/
 h7 {
@@ -438,7 +433,7 @@ h7 {
     padding-bottom: 0px;
 }
 .listtbox h4 {
-    font-weight: normal;
+    font-weight: 700;
     font-size: 24px;
     margin-left: -15px;
     margin-bottom: 0px;
@@ -454,7 +449,6 @@ h7 {
 }
 
 .tiertable {
-    font-family: "Roboto Slab";
     margin-left: 5%;
     margin-top: 2%;
     width: 90%;
@@ -463,13 +457,11 @@ h7 {
     font-size: 10pt;
 }
 .tiertable h1 {
-    font-family: "Century Gothic";
     margin-top: 0px;
     text-transform: uppercase;
     font-size: 24pt;
 }
 .tiertable h3 {
-    font-family: "Droid Serif";
     font-size: 18pt;
 }
 
@@ -660,6 +652,8 @@ h7 {
 }
 
 .footer-socials {
+    font-family: 'Font Awesome';
+
     display: flex;
     flex-direction: row;
 
@@ -698,7 +692,7 @@ h7 {
 }
 
 .footerberg {
-    width: clamp(120px, 15vw, 200px);
+    width: clamp(100px, 15vw, 200px);
     padding-left: 15px;
     padding-right: 15px;
     position: relative;

@@ -15,7 +15,7 @@ body {
 
 body {
     font-family: 'Nanum Gothic', sans-serif;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     font-size: 12pt;
     color: white;
     background-color: #343534;
@@ -418,9 +418,6 @@ h7 {
     margin: auto;
     padding-bottom: 20px;
 }
-.infotbox p {
-    font-family: "Roboto Slab";
-}
 
 .infocontent {
     text-align: center;
@@ -510,7 +507,6 @@ h7 {
     width: 230px;
 
     color: inherit;
-    font-family: inherit;
     font-size: inherit;
 
     transition: 0.15s;

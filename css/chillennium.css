@@ -8,6 +8,11 @@ a {
     color: rgb(136, 211, 245);
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Nanum Gothic', sans-serif;
     letter-spacing: 1px;
@@ -15,7 +20,6 @@ body {
     color: white;
     background-color: #343534;
     margin: 0;
-    overflow-x: hidden;
 }
 h1 {
     font-size: 30pt;
@@ -648,7 +652,7 @@ h7 {
 
 .footer-contact {
     font-size: 1.1em;
-    padding-block: 0.5em;
+    padding-top: 0.5em;
 }
 
 .footer-socials {
@@ -657,8 +661,9 @@ h7 {
     display: flex;
     flex-direction: row;
 
-    font-size: 3em;
+    font-size: clamp(2em, 3.2vw, 3em);
     gap: 1.5em;
+    padding-block: .5em;
 }
 
 .footer-socials a {

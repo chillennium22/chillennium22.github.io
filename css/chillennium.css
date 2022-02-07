@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
 @font-face {
     font-family: "Font Awesome";
-    src: url('../fonts/fa-brands-400.ttf');
+    src: url("../fonts/fa-brands-400.ttf");
 }
 
 a {
@@ -14,7 +14,7 @@ body {
 }
 
 body {
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: "Nanum Gothic", sans-serif;
     /* letter-spacing: 1px; */
     font-size: 12pt;
     color: white;
@@ -250,6 +250,20 @@ h7 {
 .contacttable td {
     padding: 10px;
     display: inline-block;
+}
+
+.titlebanner {
+    display: block;
+    margin-inline: auto;
+    width: clamp(100px, 95vw, 1200px);
+    padding-top: 40px;
+}
+
+@media screen and (max-width: 700px) {
+    .titlebanner {
+        width: 100vw;
+        padding-top: 40px;
+    }
 }
 
 .frontbanner {
@@ -609,7 +623,6 @@ h7 {
     .art-contest {
         width: 100vw;
     }
-    
 }
 
 .art-submission {
@@ -652,14 +665,36 @@ h7 {
 }
 
 .footer-socials {
-    font-family: 'Font Awesome';
+    font-family: "Font Awesome";
 
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 
-    font-size: clamp(2em, 3.2vw, 3em);
-    gap: 1.5em;
-    padding-block: .5em;
+    font-size: clamp(1.8em, 3.2vw, 3em);
+    gap: clamp(0.75em, 4vw, 1.5em);
+    padding-block: 0.5em;
+}
+
+@media screen and (max-width:700px) {
+    .footer-contact {
+        font-size: 14px;
+        padding-block: .5em;
+    }  
+
+    .footer-socials {
+        display: inline-flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+        width: 100vw;
+        left: 0;
+
+        padding-block: 1em;
+        font-size: 2em;
+        gap: 1em;
+        line-height: .3em;
+    }
 }
 
 .footer-socials a {
@@ -683,7 +718,38 @@ h7 {
 }
 
 .footer-socials a#instagram:hover {
-    color: #833ab4;
+    background: -webkit-linear-gradient(
+        #405de6,
+        #5851d8,
+        #833ab4,
+        #c13584,
+        #e1306c,
+        #fd1d1d,
+        #f56040,
+        #f77737,
+        #fcaf45,
+        #ffdc80,
+        #fff
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-socials a#youtube:hover {
+    color: #ff0000;
+}
+
+.footer-socials a#tiktok:hover {
+    color: #ff0050;
+}
+
+.footer-socials a#reddit:hover {
+    color: #ff5700;
+}
+
+.footer-socials a#discord:hover {
+    color: #5865f2;
 }
 
 #footer {

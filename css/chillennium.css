@@ -749,7 +749,15 @@ h7 {
     padding-block: 0.5em;
 }
 
+.footer-donation {
+    margin-top: 1em;
+}
+
 @media screen and (max-width:700px) {
+    .footer-content {
+        padding-bottom: 3.5em;
+    }
+
     .footer-contact {
         font-size: 14px;
         padding-block: .5em;
@@ -763,11 +771,25 @@ h7 {
         width: 100vw;
         left: 0;
 
-        padding-block: 1em;
+        padding-block: .2em;
+        margin-block: .5em;
         font-size: 2em;
         gap: 1em;
         line-height: .3em;
     }
+    
+    .footer-donation {
+        margin-top: 0;
+    }
+}
+
+.footer-donate {
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.footer-donate:hover {
+    filter: brightness(1.1);
 }
 
 .footer-socials a {
@@ -869,4 +891,27 @@ h7 {
     text-align: left;
     margin-top: 35px;
     font-weight: bold;
+}
+
+.donation {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+    font-size: clamp(13px, 2.5vw, 26px)
+}
+
+.donation h1 {
+    font-size: 2em;
+}
+
+.donation-link {
+    padding-inline: 2.75em;
+    padding-block: .75em;
+    aspect-ratio: 2.666;
+
+    margin-top: 2em;
+
+    font-size: 1.5em;
 }

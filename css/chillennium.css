@@ -915,3 +915,12 @@ h7 {
 
     font-size: 1.5em;
 }
+
+.game-submission {
+    transition: all .2s ease-in-out;
+}
+
+.game-submission:hover {
+    filter: brightness(1.1);
+    transform: scale(1.05);
+}

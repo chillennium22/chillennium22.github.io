@@ -20,19 +20,8 @@
 
         <div class="topbanner">- Judges -</div>
 
-        <div
-            style="
-                width: 100vw;
-                height: 60vh;
-                margin-block: 3em;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                flex-direction: column;
-                flex-grow: 0;
-            "
-        >
-            <div class="frontbanner">
+        <div style="margin-block: 1em">
+            <!-- <div class="frontbanner">
                 <br />
                 <h3><b>BECOME A JUDGE TODAY!</b></h3>
                 <h2>
@@ -49,7 +38,89 @@
                 src="media/chillennium_chan.png"
                 class="chillennium-chan"
                 alt="chillennium-chan"
-            />
+            /> -->
+            <div id="judges"></div>
+            <script>
+                const winnersDiv = document.getElementById("judges");
+                $.getJSON("data/mentors_judges_22.json", function ({ data }) {
+                    data.forEach(
+                        ({
+                            name,
+                            company,
+                            jobtitle,
+                            position,
+                            profilepicture,
+                            bio,
+                        }) => {
+                            if (!position.includes("JUDGE")) return;
+
+                            const myStyle = {
+                                card: {
+                                    "background-color": "lightgrey",
+                                    color: "black",
+                                    width: "18em",
+                                    "text-align": "center",
+                                    "padding-block": "1rem",
+                                    "border-radius": "15px",
+                                },
+                            };
+
+                            const card = document.createElement("div");
+                            card.classList.add("winner-card");
+                            Object.keys(myStyle.card).forEach((key) => {
+                                card.style[key] = myStyle.card[key];
+                            });
+                            card.onclick = () => {
+                                window.open(`${winner.link}`, "newwindow");
+                            };
+
+                            const judgeName = document.createElement("h3");
+                            judgeName.textContent = name;
+                            judgeName.style =
+                                "font-size: 1.5rem; font-weight: 800;";
+
+                            const judgeCompany = document.createElement("h3");
+                            judgeCompany.textContent = company;
+                            judgeCompany.style =
+                                "font-size: 1.25rem; font-weight: 800; color: darkblue;";
+
+                            const judgeJobTitle = document.createElement("h3");
+                            judgeJobTitle.textContent = jobtitle;
+                            judgeJobTitle.style =
+                                "font-size: .75rem; font-weight: 600;";
+
+                            const judgeBio = document.createElement("p");
+                            judgeBio.textContent = bio;
+                            judgeBio.style =
+                                "max-height: 200px; overflow: scroll; text-align: left; padding-inline: 2em";
+
+                            card.appendChild(judgeCompany);
+                            card.appendChild(judgeName);
+                            card.appendChild(judgeJobTitle);
+                            card.appendChild(judgeBio);
+                            winnersDiv.appendChild(card);
+                        }
+                    );
+                });
+            </script>
+            <style>
+                #judges {
+                    padding: 4rem;
+
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-evenly;
+                    gap: 1em;
+                }
+
+                .winner-card {
+                    transition: transform 0.2s ease-in-out;
+                }
+                .winner-card:hover {
+                    transform: scale(1.05);
+                    cursor: pointer;
+                }
+            </style>
         </div>
 
         <div id="footer"></div>

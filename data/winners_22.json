@@ -1,0 +1,49 @@
+{
+    "winners": [
+        {
+            "category": "1st Place Winner",
+            "name": "Smoothie Sisters",
+            "members": ["Elbert Hoang", "Chris Chuang", "Meredyth Yorek", "Kelton Chesshire"],
+            "link": "https://myorek.itch.io/smoothie-sisters-windows-build",
+            "tag": "first"
+        },
+        {
+            "category": "2nd Place Winner",
+            "name": "Painta and the Slime Mixup",
+            "members": ["Angel Ham", "Ryan Mendoza", "Madeleine Cadungog", "Amelia McCarthy"],
+            "link": "https://ameliarmccarthy.itch.io/painta-and-the-slime-mix-up",
+            "tag": "second"
+        },
+        {
+            "category": "3rd Place Winner",
+            "name": "Zero out of Five Stars",
+            "members": ["Dallas Baker", "Cody Bruckerhoff", "Greg Burns", "Mason Scheible"],
+            "link": "https://itch.io/jam/chillennium-2022/rate/1468941",
+            "tag": "third"
+        },
+        {
+            "category": "Best in Game Design",
+            "name": "Nocturnal Nightclub",
+            "members": ["Arjun Kurkal", "Alexander Nuccitelli", "Joseph Nuccitelli", "Jenna Plute"],
+            "link": "https://jnuccitelli.itch.io/nocturnal-nightclub"
+        },
+        {
+            "category": "Best in Programming",
+            "name": "The Cake is a Lie",
+            "members": ["Nathan Reddy","Carolyn Nguyen","Dylan Theriot","Vivian Yu"],
+            "link": "https://samanthemum.itch.io/dungeons-and-drinks"
+        },
+        {
+            "category": "Best in Sound",
+            "name": "Smoothie Sisters",
+            "members": ["Elbert Hoang", "Chris Chuang", "Meredyth Yorek", "Kelton Chesshire"],
+            "link": "https://myorek.itch.io/smoothie-sisters-windows-build"
+        },
+        {
+            "category": "Best in Originality",
+            "name": "Necronomimon",
+            "members": ["Alex Rose", "Michael Freaney", "Keegan McQuin", "Rachel Barner"],
+            "link": "https://mfreaney24.itch.io/necronomimon"
+        }
+    ]
+}

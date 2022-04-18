@@ -21,18 +21,8 @@
         <div class="topbanner">- Mentors -</div>
 
         <div
-            style="
-                width: 100vw;
-                height: 60vh;
-                margin-block: 3em;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                flex-direction: column;
-                flex-grow: 0;
-            "
         >
-            <div class="frontbanner">
+            <!-- <div class="frontbanner">
                 <br />
                 <h3><b>BECOME A MENTOR TODAY!</b></h3>
                 <h2>
@@ -49,7 +39,89 @@
                 src="media/chillennium_chan.png"
                 class="chillennium-chan"
                 alt="chillennium-chan"
-            />
+            /> -->
+            <div id="mentors"></div>
+            <script>
+                const winnersDiv = document.getElementById("mentors");
+                $.getJSON("data/mentors_judges_22.json", function ({ data }) {
+                    data.forEach(
+                        ({
+                            name,
+                            company,
+                            jobtitle,
+                            position,
+                            profilepicture,
+                            bio,
+                        }) => {
+                            if (!position.includes("MENTOR")) return;
+
+                            const myStyle = {
+                                card: {
+                                    "background-color": "lightgrey",
+                                    color: "black",
+                                    width: "18em",
+                                    "text-align": "center",
+                                    "padding-block": "1rem",
+                                    "border-radius": "15px",
+                                },
+                            };
+
+                            const card = document.createElement("div");
+                            card.classList.add("winner-card");
+                            Object.keys(myStyle.card).forEach((key) => {
+                                card.style[key] = myStyle.card[key];
+                            });
+                            card.onclick = () => {
+                                window.open(`${winner.link}`, "newwindow");
+                            };
+
+                            const mentorName = document.createElement("h3");
+                            mentorName.textContent = name;
+                            mentorName.style =
+                                "font-size: 1.5rem; font-weight: 800;";
+
+                            const mentorCompany = document.createElement("h3");
+                            mentorCompany.textContent = company;
+                            mentorCompany.style =
+                                "font-size: 1.25rem; font-weight: 800; color: darkblue;";
+
+                            const mentorJobTitle = document.createElement("h3");
+                            mentorJobTitle.textContent = jobtitle;
+                            mentorJobTitle.style =
+                                "font-size: .75rem; font-weight: 600;";
+
+                            const mentorBio = document.createElement("p");
+                            mentorBio.textContent = bio;
+                            mentorBio.style =
+                                "max-height: 200px; overflow: scroll; text-align: left; padding-inline: 2em";
+
+                            card.appendChild(mentorCompany);
+                            card.appendChild(mentorName);
+                            card.appendChild(mentorJobTitle);
+                            card.appendChild(mentorBio);
+                            winnersDiv.appendChild(card);
+                        }
+                    );
+                });
+            </script>
+            <style>
+                #mentors {
+                    padding: 4rem;
+
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-evenly;
+                    gap: 1em;
+                }
+
+                .winner-card {
+                    transition: transform 0.2s ease-in-out;
+                }
+                .winner-card:hover {
+                    transform: scale(1.05);
+                    cursor: pointer;
+                }
+            </style>
         </div>
         <!-- <div class="infocontent">
             <h1>Foster Gaming's Future!</h1>

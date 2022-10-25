@@ -37,6 +37,86 @@
                 Chillennium 2022 Games
             </button>
         </div>
+        <div class="biggameslist accordion-hide" id="2022games">
+        <div id="winners"></div>
+        <script>
+            const winnersDiv = document.getElementById("winners");
+            $.getJSON("data/winners_22.json", function ({ winners }) {
+                winners.forEach((winner) => {
+                    let bgColor = "grey";
+                    if (winner.tag) {
+                        switch (winner.tag) {
+                            case "first":
+                                bgColor = "#AF9500";
+                                break;
+                            case "second":
+                                bgColor = "#C0C0C0";
+                                break;
+                            case "third":
+                                bgColor = "#CD7F32";
+                                break;
+                        }
+                    }
+
+                    const myStyle = {
+                        card: {
+                            "backgroundColor": bgColor,
+                            "width": "20em",
+                            "text-align": "center",
+                            "padding-block": "1rem",
+                            "border-radius": "15px",
+                        }
+                    }
+
+                    const card = document.createElement("div");
+                    card.classList.add("winner-card")
+                    Object.keys(myStyle.card).forEach(key => {
+                        card.style[key] = myStyle.card[key]
+                    })
+                    card.onclick = () => {window.open(`${winner.link}`, 'newwindow')}
+
+                    const cardCategory = document.createElement("h3");
+                    cardCategory.textContent = winner.category;
+                    cardCategory.style = "font-size: 1.5rem; font-weight: 900; text-decoration: underline";
+
+                    const cardName = document.createElement("h3");
+                    cardName.textContent = winner.name;
+                    cardName.style = "font-size: 1.5rem; font-weight: 800";
+
+                    const cardMembers = document.createElement("ul");
+                    cardMembers.style = "list-style: none; padding: 0";
+                    winner.members.forEach((member) => {
+                        const cardMember = document.createElement("li");
+                        cardMember.textContent = member;
+                        cardMembers.appendChild(cardMember);
+                    });
+
+                    card.appendChild(cardCategory);
+                    card.appendChild(cardName);
+                    card.appendChild(cardMembers);
+                    winnersDiv.appendChild(card);
+                });
+            });
+        </script>
+        <style>
+            #winners {
+                padding: 4rem;
+
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                gap: 1em;
+            }
+
+            .winner-card {
+                transition: transform .2s ease-in-out;
+            }
+            .winner-card:hover {
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+        </style>
+        </div>
         <div class="listtbox">
             <h1>2018</h1>
             <p>

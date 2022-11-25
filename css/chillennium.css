@@ -18,7 +18,7 @@ body {
     /* letter-spacing: 1px; */
     font-size: 12pt;
     color: white;
-    background-color: linear-gradient(to bottom, #EE3F8E 25.58%, #261444 49.75%, #261444 79.85%);
+    background: linear-gradient(to bottom, #EE3F8E 25.58%, #261444 49.75%, #261444 79.85%);
     margin: 0;
 }
 h1 {

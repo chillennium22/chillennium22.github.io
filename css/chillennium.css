@@ -925,3 +925,11 @@ h7 {
     filter: brightness(1.1);
     transform: scale(1.05);
 }
+
+.particpate-box {
+    width: 100%;
+    height: 25%;
+    background: rgba(175, 168, 189, 0.5);
+/* Bar_Inner-Shadow */
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+} 

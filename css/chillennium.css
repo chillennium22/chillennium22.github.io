@@ -63,14 +63,15 @@ h7 {
 }
 
 .navbar ul {
-    background: linear-gradient(
+/*     background: linear-gradient(
         to left,
         rgb(136, 211, 245) 0%,
         rgb(25, 162, 203) 35%,
         rgb(172, 74, 156) 60%,
         rgb(220, 42, 115) 100%
     );
-    background-color: #12718a;
+    background-color: #12718a; */
+    background: #261444;
     list-style: none;
 
     display: flex;

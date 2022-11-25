@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
 @font-face {
-    font-family: "Font Awesome";
+    font-family: "Century Gothic";
     src: url("../fonts/fa-brands-400.ttf");
 }
 
@@ -14,7 +14,7 @@ body {
 }
 
 body {
-    font-family: "Nanum Gothic", sans-serif;
+    font-family: "Century Gothic", sans-serif;
     /* letter-spacing: 1px; */
     font-size: 12pt;
     color: white;

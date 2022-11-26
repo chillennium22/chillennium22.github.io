@@ -938,10 +938,9 @@ h7 {
     border: none;
     outline: none;
 
-    padding: 7px;
+    padding: 5px;
     background-color: #dc2673;
-    width: 230px;
-
+    width: 25%;
     color: inherit;
     font-size: inherit;
 

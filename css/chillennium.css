@@ -933,3 +933,21 @@ h7 {
 /* Bar_Inner-Shadow */
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 } 
+.regularbtn {
+    cursor: pointer;
+    border: none;
+    outline: none;
+
+    padding: 7px;
+    background-color: #dc2673;
+    width: 230px;
+
+    color: inherit;
+    font-size: inherit;
+
+    transition: 0.15s;
+}
+.btnactive,
+.regularbtn:hover {
+    background-color: #991a50;
+}

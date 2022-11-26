@@ -971,7 +971,7 @@ h7 {
 /*     font-size: inherit; */
     font-weight: 600;
     font-size: clamp(10px, 1.7vw, 20px);
-    text-transform:uppercase
+    text-transform: uppercase;
     transition: 0.15s;
 }
 .btnactive,

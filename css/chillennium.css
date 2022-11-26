@@ -934,13 +934,11 @@ h7 {
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 } 
 
-* {
-  box-sizing: border-box;
-  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
 
 /* Create two unequal columns that floats next to each other */
 .column {
+  box-sizing: border-box;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   float: left;
   padding: 10px;
   height: 30%; /* Should be removed. Only for demonstration */
@@ -956,6 +954,7 @@ h7 {
 
 /* Clear floats after the columns */
 .row:after {
+    
   content: "";
   display: table;
   clear: both;

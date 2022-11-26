@@ -968,8 +968,9 @@ h7 {
     background-color: #dc2673;
     width: 100%;
     color: inherit;
-    font-size: inherit;
-
+/*     font-size: inherit; */
+    font-weight: 600;
+    font-size: clamp(10px, 1.7vw, 20px);
     transition: 0.15s;
 }
 .btnactive,

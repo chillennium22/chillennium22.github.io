@@ -869,7 +869,9 @@ h7 {
 .contactfooter {
     display: flex;
     align-items: flex-start;
-    background-color: #12718a;
+/*     background-color: #12718a; */
+    background: linear-gradient(to bottom, #3DC1CC 50%, #261444 50%);
+
     font-size: 11.5pt;
     width: 100%;
     position: relative;

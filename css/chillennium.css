@@ -945,11 +945,11 @@ h7 {
 }
 
 .left {
-  width: 40%;
+  width: 25%;
 }
 
 .right {
-  width: 60%;
+  width: 75%;
 }
 
 /* Clear floats after the columns */
@@ -958,6 +958,7 @@ h7 {
   content: "";
   display: table;
   clear: both;
+  height: 30%;
 }
 .regularbtn {
     cursor: pointer;

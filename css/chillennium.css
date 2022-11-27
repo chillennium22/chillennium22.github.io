@@ -941,7 +941,7 @@ h7 {
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   float: left;
   padding: 5px;
-  height: 30%; /* Should be removed. Only for demonstration */
+/*   height: 30%; /* Should be removed. Only for demonstration */ */
 }
 
 .left {

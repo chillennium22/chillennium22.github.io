@@ -260,119 +260,6 @@ h7 {
     padding-top: 40px;
 }
 
-217
-    padding: 0;
-218
-    width: fit-content;
-219
-    text-decoration: inherit;
-220
-​
-221
-    transition: color 0.2s ease-in-out;
-222
-}
-223
-​
-224
-.navbar a:hover {
-225
-    color: rgb(223, 223, 223);
-226
-    transform: scale(0.95);
-227
-}
-228
-​
-229
-.topbanner {
-230
-    text-align: center;
-231
-    background-color: #dc2673;
-232
-    width: 100%;
-233
-    align-content: center;
-234
-    text-transform: uppercase;
-235
-    padding-bottom: 5px;
-236
-    padding-top: 5px;
-237
-    font-weight: bold;
-238
-    font-size: 22pt;
-239
-}
-240
-​
-241
-.smicon {
-242
-    border: none;
-243
-    width: 30px;
-244
-}
-245
-.contacttable {
-246
-    width: 80%;
-247
-    border-collapse: separate;
-248
-    text-align: center;
-249
-    margin: auto;
-250
-}
-251
-.contacttable td {
-252
-    padding: 10px;
-253
-    display: inline-block;
-254
-}
-255
-​
-256
-.titlebanner {
-257
-    display: block;
-258
-    margin-inline: auto;
-259
-    width: clamp(100px, 95vw, 1200px);
-260
-    padding-top: 40px;
-261
-}
-262
-​
-263
-@media screen and (max-width: 700px) {
-264
-    .titlebanner {
-265
-        width: 100vw;
-266
-        padding-top: 40px;
-267
-    }
-268
-}
-269
-​
-270
-.frontbanner {
-271
-    text-align: center;
-272
-    background-color: #287c96;
-
 @media screen and (max-width: 700px) {
     .titlebanner {
         width: 100vw;
@@ -1054,7 +941,7 @@ h7 {
   float: left;
   width: 50%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 30%; /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */

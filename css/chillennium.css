@@ -934,32 +934,28 @@ h7 {
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 } 
 
-
-/* Create two unequal columns that floats next to each other */
+/* Create two equal columns that floats next to each other */
 .column {
-  box-sizing: border-box;
-  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   float: left;
-  padding: 5px;
-/*   height: 30%; /* Should be removed. Only for demonstration */ */
-}
-
-.left {
   width: 25%;
-}
-
-.right {
-  box-sizing: border-box;
-  width: 75%;
+  padding: 10px;
+  height: 30%; /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
 .row:after {
-  box-sizing: border-box; 
   content: "";
   display: table;
   clear: both;
 }
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
 .regularbtn {
     cursor: pointer;
     border: none;

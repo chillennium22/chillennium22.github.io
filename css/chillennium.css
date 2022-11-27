@@ -940,7 +940,7 @@ h7 {
   box-sizing: border-box;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   float: left;
-  padding: 10px;
+  padding: 5px;
   height: 30%; /* Should be removed. Only for demonstration */
 }
 
@@ -949,16 +949,16 @@ h7 {
 }
 
 .right {
+  box-sizing: border-box;
   width: 75%;
 }
 
 /* Clear floats after the columns */
 .row:after {
-    
+  box-sizing: border-box; 
   content: "";
   display: table;
   clear: both;
-  height: 30%;
 }
 .regularbtn {
     cursor: pointer;

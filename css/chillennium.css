@@ -729,7 +729,7 @@ h7 {
     flex: 1;
     margin-right: 2em;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
 }
 

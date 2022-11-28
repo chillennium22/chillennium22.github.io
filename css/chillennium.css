@@ -731,11 +731,13 @@ h7 {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    display:block; 
 }
 
 .footer-contact {
     font-size: 1.1em;
     padding-top: 0.5em;
+    display:block; 
 }
 
 .footer-socials {

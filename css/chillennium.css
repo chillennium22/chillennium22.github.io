@@ -725,10 +725,13 @@ h7 {
 
 .footer-content {
     display: flex;
-    flex-direction: column;
+    height: 100%;
+
+/*     flex-direction: ; */
     flex: 1;
     margin-right: 2em;
-    justify-content: space-between;
+/*     justify-content: space-between; */
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     display:block; 

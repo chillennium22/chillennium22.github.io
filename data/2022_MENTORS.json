@@ -1,0 +1,314 @@
+{"data":[
+ {
+   "name": "Aaron Thibault\n",
+   "company": "Gearbox",
+   "jobtitle": "VP Strategic Operations & Ambassador",
+   "position": "JUDGE (VIRTUAL)",
+   "profilepicture": "",
+   "bio": "Making games since 97.  "
+ },
+ {
+   "name": "Alex Bereznyak",
+   "company": "EA",
+   "jobtitle": "Technical Animation Director",
+   "position": "JUDGE",
+   "profilepicture": "",
+   "bio": "I develop tech for video games, VR and digital entertainment in general."
+ },
+ {
+   "name": "Alex Magee",
+   "company": "AEM Creations, LLC",
+   "jobtitle": "President",
+   "position": "JUDGE",
+   "profilepicture": "N/A",
+   "bio": "Alex Magee is a Viz grad from the class of 2019. Since the fall of 2019, he has been the President of AEM Creations, a visual media company specializing in web development, animation, and 3d modeling. In the past three years, AEM Creations has produced 3d materials and animations for a variety of industries including cancer research and oil & gas. Prior to starting his company, he worked as curriculum manager of video games for an educational technology startup in Dallas. Alex has years of experience with Unity and over a decade of experience with GameMaker and loves both playing and making games."
+ },
+ {
+   "name": "Amy Schuetz",
+   "company": "AEM Creations, LLC",
+   "jobtitle": "Co-Founder",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "Amy Schuetz is a Co-founder of AEM Creations, a visual media production company specializing in web development, animation, and 3D models. She oversees user-experience, design, and animation in the company. Prior to starting the company, Amy taught art classes with a Dallas non-profit and did free-lance video editing for five years. Her past work includes videos and animations for both educational use and social media for hospitals and broadcast media for television. Amy graduated with a degree in Visualization from A&M in 2018. Her other visualization interests include technical art, rigging, scripting, and hard-surface modeling."
+ },
+ {
+   "name": "Ashlyn Chatelain\n",
+   "company": "Capco",
+   "jobtitle": "Software Developer",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "My name is Ashlyn Chatelain, Texas A&M Class of 2019. Whereas previously I worked at Texas A&M's Live Lab as a Game Producer and served as President for Texas A&M's Game Developers, since graduating I have been working at Capco as a consultant specializing in software design and development to create custom solutions that help support and improve companies from every industry. Despite my love for software development, I enjoy wearing multiple hats and have experience with Project Management, Scrum Mastery, process design, and UI/UX design."
+ },
+ {
+   "name": "Austin Ruff\n",
+   "company": "Aquifer Motion",
+   "jobtitle": "Senior Unity Engineer",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "Hi, I'm Austin!  I went to my first Chillennium in 2016 and graduated from Texas A&M in 2018 with a BS in computer science.  I used to work for the Live Lab on campus.  Since then, I've worked at a couple of video game companies on a few projects."
+ },
+ {
+   "name": "Ben House\n",
+   "company": "Bluepoint Games",
+   "jobtitle": "Technical Artist",
+   "position": "JUDGE",
+   "profilepicture": "",
+   "bio": "I am a Technical Artist at Bluepoint Games in Austin, TX and a Texas A&M Visualization alumni from the Class of 2013. I specialize in procedural tools and content creation, primarily using Houdini. I’ve been making games for the last 7 years, including titles such as NCAA 2014, Madden 25, Variant Limits, and Demon’s Souls for the PS5. I am also proud to be among the founding members of the first Chillennium Game Jam."
+ },
+ {
+   "name": "Blake Johnson\n",
+   "company": "Insomniac Games (Playstation Studios)",
+   "jobtitle": "Senior Audio Designer",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "Senior Audio Designer at Insomniac Games Previous work includes Ratchet & Clank: Rift Apart, Marvel's Spider-Man: Miles Morales, and Marvel's Spider-Man + DLC Graduated from Savannah College of Art and Design with a BFA in Sound Design in 2013"
+ },
+ {
+   "name": "Bradley Kern",
+   "company": "PeopleFun",
+   "jobtitle": "Software Developer",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "Bradley is a former student of Texas A&M, and got his start in game development at Chillennium. He currently works as a software engineer at PeopleFun Inc, on mobile titles such as Wordscapes. He has also worked on VR titles, such as Totally Baseball by Viewer Ready."
+ },
+ {
+   "name": "Brenden Thomas",
+   "company": "N/A",
+   "jobtitle": "Student",
+   "position": "JUDGE",
+   "profilepicture": "",
+   "bio": "I am a Technical Artist at Bluepoint Games in Austin, TX and a Texas A&M Visualization alumni from the Class of 2013. I specialize in procedural tools and content creation, primarily using Houdini. I’ve been making games for the last 7 years, including titles such as NCAA 2014, Madden 25, Variant Limits, and Demon’s Souls for the PS5. I am also proud to be among the founding members of the first Chillennium Game Jam."
+ },
+ {
+   "name": "Brieyh'leai R Simmons",
+   "company": "Owlchemy Labs",
+   "jobtitle": "3D Artist II",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "Brieyh'leai Simmons is an artist and game developer based in Austin, Texas with a BS in Visualization from Texas A&M University. Through many small projects and game jams (including Chillennium!) she's developed a signature cute and comfy style, helping people ease into games with a variety of unique and goofy mechanics. She currently works at Owlchemy Labs as a 3D Artist. You can see her past work in the game Before Your Eyes and as a part of her own indie team, Gumboot Studio."
+ },
+ {
+   "name": "Cameron Casey\n",
+   "company": "Behaviour Interactive",
+   "jobtitle": "VFX Artist",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "Done VFX for Diablo 4, Dead by Daylight, and Godfall\n"
+ },
+ {
+   "name": "Chase Hardy",
+   "company": "Schell Games",
+   "jobtitle": "Advanced Design Manager",
+   "position": "JUDGE",
+   "profilepicture": "",
+   "bio": "Chase is a Level / Game Designer with over 6 years of game industry experience. He’s been a part of some fantastic indie developer teams, working on 7 titles, 5 being at Schell Games in Pittsburgh, PA. Most recently he has worked on VR titles Until You Fall and I Expect you To Die 2. He is also a Texas A&M Viz 2015 Alumni, guest lecturer, worked in the LIVE Lab, and has competed in past Chillenniums."
+ },
+ {
+   "name": "Chelsey Gobeli\n",
+   "company": "SciPlay",
+   "jobtitle": "Producer",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "Howdy! I am a Producer at SciPlay in Austin, TX where I work on cross company initiatives and our 9 mobile games. What I enjoy most is collaborating with various teams and bringing everyone together to solve a problem. Before I got started in industry, I was one of the original co-founders of Chillennium and am a Texas A&M Viz Alumni. "
+ },
+ {
+   "name": "David Santiago",
+   "company": "Insomniac Games",
+   "jobtitle": "Principal Technical Artist",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "David has implemented Procedural Systems and tools for Insomniac Games titles including Sunset Overdrive (Xbox One), Stormland (Oculus Rift), Ratchet and Clank (PS4), Marvel’s Spider-Man, Marvel’s Spider-Man: Miles Morales and Ratchet and Clank: Rift Apart. Previously, David worked over ten years in visual effects and animation on music videos, commercials, and feature films including The Fifth Element, Titanic, Armageddon, The Ant Bully, Sky Captain and the World of Tomorrow, Master and Commander: Far Side of the World, and Black Hawk Down. Publishing \"Creating 3D Effects for Film, TV and Games\" in 2004, he continues participating in education and career development. David’s first career out of engineering school was developing ultra-stable fiber optic distribution systems, cryogenic microwave oscillators, and ionic frequency standards at NASA's Jet Propulsion Laboratory."
+ },
+ {
+   "name": "Donavon Bailey",
+   "company": "Sunspear Games",
+   "jobtitle": "Creative Designer and Lord Intern",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "I'm currently a Creative Designer at SunSpear Games working on the upcoming RTS IMMORTAL: Gates of Pyre. I'm also involved in most parts of the pipeline—Creative, Systems and Mechanics Design, UI/UX Design, Sound Design, Project Management, and I regularly work with Art and Tech (i.e. Lord Intern). I'm most familiar with Unreal Engine 4, but I do know a bit of Unity.\n\nI've also been a Viz student since 2018, but I've been doing game design since as early as 2012. Gig 'em!"
+ },
+ {
+   "name": "Hira Roberts",
+   "company": "Prairie View A&M Univerisity ",
+   "jobtitle": "Assistant Professor",
+   "position": "JUDGE",
+   "profilepicture": "",
+   "bio": "Hira Roberts is an Assistant Professor of Digital Media Arts at Prairie View A&M University. She received her MFA in Digital Art from Louisiana State University where she worked with a variety of mediums including virtual reality, augmented reality, and interactive art installations. She has an undergraduate degree in Architecture and has prior experience working with off shore indie game development companies. She worked as a junior artist at Caramel Tech, a Pakistan based game dev company, where she had the opportunity to work on outsourced games such as Fruit Ninja, Sims, and Jetpack Joyride. Her role was primarily UI design and asset creation."
+ },
+ {
+   "name": "Jared Thome",
+   "company": "Unemployed",
+   "jobtitle": "N/A",
+   "position": "JUDGE",
+   "profilepicture": "",
+   "bio": ""
+ },
+ {
+   "name": "Jonathon Rios",
+   "company": "N/A",
+   "jobtitle": "GIS Researcher",
+   "position": "JUDGE (VIRTUAL)",
+   "profilepicture": "",
+   "bio": "Educational Researcher and Designer."
+ },
+ {
+   "name": "Josey Meyer\n",
+   "company": "Blizzard Entertainment",
+   "jobtitle": "Associate Dungeon Designer",
+   "position": "JUDGE (VIRTUAL)",
+   "profilepicture": "",
+   "bio": "As a Viz Aggie Alumni and two year Chillennium award winner, Josey now works at Blizzard Entertainment on Diablo IV as an Associate Dungeon Designer.\n\"I'm looking forward to seeing what amazing experiences everyone creates. Just remember: Gameplay First\""
+ },
+ {
+   "name": "Kelly Burroughs",
+   "company": "Marvel Studios",
+   "jobtitle": "Visual Development Coordinator",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "Kelly Burroughs graduated from the TAMU Visualization program in 2017 specializing as a general artist. After her internship at Nickelodeon Animation Studio in 2018, Kelly discovered her true passion in production management. In 2019, Kelly switched gears and started her Masters at TAMU specializing in animation/live-action/video games production management while working as the project manager at L.I.V.E. Lab. Since then, Kelly has been a Production Assistant at Brazen Animation, DreamWorks Animation Feature, and is currently the Production Coordinator for Visual Development at Marvel Studios (live-action projects.)"
+ },
+ {
+   "name": "Kyle Garbs\n",
+   "company": "Virtuix",
+   "jobtitle": "Game Designer",
+   "position": "JUDGE",
+   "profilepicture": "",
+   "bio": "I attended Texas A&M University class of 2020, where I was in the Viz program along with being a member of the Corps of Cadets and graduated with a BS in Visualization and a minor in game design and art and architectural History. Spent some time as a part of the graduate program in Viz but left when I accepted my current position in March of last year. I am currently a Game Designer at Virtuix developing games for our VR Treadmill system."
+ },
+ {
+   "name": "Kyle Purser",
+   "company": "Robot Entertianment ",
+   "jobtitle": "Senior Game Programmer",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "Hi, I'm Kyle. I'm a Senior Game Programmer at Robot Entertainment and Aggie alum, Class of 2017! Originally from Australia, I came over to the U.S. and studied Computer Science at Texas A&M where I got my start in game development working at the LIVE Lab as the Lead "
+ },
+ {
+   "name": "Laura Adams\n",
+   "company": "Insomniac Games",
+   "jobtitle": "Gameplay Programmer",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "I am a Gameplay Programmer at Insomniac. I landed my first game dev job (which actually was at the LIVE Lab) as a Freshman because of Chillennium! I'm currently working on Wolverine, and my previous work includes Ratchet & Clank: Rift Apart, Jackbox Party Pack 5, a multitude of the Arte and Variant games, some shared code in Spiderman: Miles Morales."
+ },
+ {
+   "name": "Marc Aubanel",
+   "company": "Louisiana State University",
+   "jobtitle": "Director of Digital Media Arts & Engineering",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "15 years working professional with 14 years of experience teaching game development"
+ },
+ {
+   "name": "Maxwell Martin\n",
+   "company": "Alula Learning",
+   "jobtitle": "Senior Designer",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "Howdy, I'm a past A&M Graduate and a Senior Designer at Alula Learning. I've been creating a game for dyslexic children for the past 3 years with a small team and found my love for game design when I was attending A&M. "
+ },
+ {
+   "name": "Mike Hayes",
+   "company": "Blizzard Entertainment",
+   "jobtitle": "Software Engineer",
+   "position": "JUDGE (VIRTUAL)",
+   "profilepicture": "",
+   "bio": "Hi there! My name is Mike and I've been at Blizzard Entertainment now for just about 5 years. I started here in IT as a Network Administrator and now currently I am a Software Engineer for Overwatch. Game jams has paved the way to my current position. You meet so many great people and learn so much and I wouldn’t be where I am today without them. Game on!"
+ },
+ {
+   "name": "Nathan Kellman",
+   "company": " \n \t\t\nHangar 13\n",
+   "jobtitle": "Associate Designer",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "Nathan Kellman currently works at Hangar 13 Games as an associate designer on the level design team. His first taste of game development was his last year at Texas A&M where he started learning about 3d art and animation. \n\nAfter graduating in 2017, He attended Michigan State University where he worked multiple jobs such as a game designer, research assistant and a teaching assistant. In June of 2021, he began an internship with Hangar 13 and was hired fulltime in October.\n\nHe also played football at Texas A&M in 2015. "
+ },
+ {
+   "name": "Nic Lupfer",
+   "company": "Mapware",
+   "jobtitle": "Senior Engineer",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "Nic is an indie dev, engineer, and HCI researcher with a PhD in computer science from Texas A&M. He is one half of Gumboot Studio which has been commissioned to make games for PlayNYC and Google Stadia, and is currently developing a game for the Cartomancy Game Anthology. Nic has participated in over 20 game jams, winning awards in GMTK, LudumDare, Global Game Jam, and Chillennium!"
+ },
+ {
+   "name": "Nicholas Forasiepi",
+   "company": "Blue Logic Productions",
+   "jobtitle": "3D Multimedia Aritst",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "In the spring of 2018 I received my MFA in visualizations from Texas A&M University, from there I went on to worked for about 3 years as a freelance 3D artist working out of the Dallas, Texas area. In July of 2021 I started working for blue logic productions as a 3D Multimedia Artist until the start of November when my contract with them ended. Later in November I was offered the role of Lead 3D Artist at Lunarfall, a small game company operating out of Dallas, Texas where I worked on a game called the Misadventures of Mollie and Mordecai until its release in February of 2022. After my time with Lunarfall was finished, I went back to working for blue logic productions where I currently am employed as 3D Multimedia Artist."
+ },
+ {
+   "name": "Preston White\n",
+   "company": "nonPareil Institute",
+   "jobtitle": "Lead Instructor/Artist",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "I'm Preston White! I graduated from Texas A&M, Class of '17, with a BS in Visualization. I continued my studies in Game Design with Art Specialization at SMU Guildhall and graduated again in 2019. Since then, I have been working at a non-profit that builds better futures for adults with autism! I've been helping the company pave the way for 3D art instruction in Blender and scrum/agile workflows in their game projects.\n\nI enjoyed competing in Chillennium twice while I was a student, but had even more fun mentoring at Chillennium 2019, and can't wait to help once again!"
+ },
+ {
+   "name": "Samantha Land",
+   "company": "Alula Learning",
+   "jobtitle": "Artist Director",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "Howdy! I'm Sam, a Viz Major graduated from Texas A&M. Currently I work as the Artistic Director for Alula Learning, a games studio in Downtown Bryan that creates fun educational games for dyslexic children! I've worked here for 3 years, previously having worked at the LIVE Lab as a Concept Artist on FAoA and DHS. I'm proficient as a 2D Art generalist working in UI/UX, 2D hand-drawn animation, and in-game assets. I've competed in Chillenium two times during my college career, earning Fan Favorite and Best in Design with \"Aw Sheep!\" I would love to come back and offer help to artists from concept to polish, and any program questions such as Photoshop, Paint Tool Sai, Adobe Products, Maya, and Substance Painter."
+ },
+ {
+   "name": "Sarah Spofford",
+   "company": "Microsoft",
+   "jobtitle": "Software Engineer",
+   "position": "JUDGE",
+   "profilepicture": "",
+   "bio": "I spent seven years in the games industry working for EA Sports as a software engineer on Madden's connected franchise mode.  About a year ago I moved to Microsoft's Studio Alpha.  Similar work, just less football."
+ },
+ {
+   "name": "Sola Chang\n",
+   "company": "Activision Blizzard",
+   "jobtitle": "Associate UI/UX Designer",
+   "position": "JUDGE (VIRTUAL)",
+   "profilepicture": "",
+   "bio": "jobtitle: Associate UI/UX Designer\nbio: I worked as a high school computer science teacher in South Korea for a few years, but after it shut down, I took half a year entering and competing in 5 game jams (you can view them here! https://thfk.itch.io/). I utilized and upgraded my skillset through these experiences and built a portfolio impressive enough to grab the attention of an AAA game studio!"
+ },
+ {
+   "name": "Tracey L Moore",
+   "company": "Prairie View A&M Univerisity ",
+   "jobtitle": "Assistant Professor",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "Teaches art and graphic design courses in the Prairie View A&M University Digital Media Arts program. Has an MFA in Graphic Communications from the University of Houston. Creates mixed media and photographic work and has exhibited throughout the United States. Work is featured in the book \"Below the Surface: Ethnic Echoes in America's Modern and Contemporary Art\"."
+ },
+ {
+   "name": "Trevor Higgins",
+   "company": "Robot Entertianment ",
+   "jobtitle": "Programmer",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "Hello there! A little about me, I'm a programmer for Robot Entertainment who uses Unreal on a daily basis and uses Unity for all of my personal projects. I was part of the Chillennium team that won in 2018,  and I worked as the lead programmer for the Live Lab during that time. I was also a programmer for BonusXP and helped create the Stranger Things 3 game!\n\nAlong with programming I also like to design, and I've looked at a staggering amount of games for reference / inspiration. If you need anything please feel free to flag me down, I'd be delighted to help!"
+ },
+ {
+   "name": "Tyler Padgett",
+   "company": "bioware",
+   "jobtitle": "Level Designer ",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "Howdy, I'm Tyler. I am a level designer at bioware with about 5 years of experience in the games industry where I've also worked as a gameplay designer and UX designer. \n\nI attended Texas A&M University and received a Bachelor's in Architecture. While doing undergrad I was also V.P. of T.A.G.D. and a director for Chillennium. \n\nIn my free time enjoy talking and attending conferences for the games industry and have been to several all across the U.S. getting to meet a lot of awesome creators from all over the world. I also keep a small food journal of cheeseburgers I have eaten across the globe and through all of my travels."
+ },
+ {
+   "name": "Willer Da Silva",
+   "company": "Aristocrat",
+   "jobtitle": "Lead Software Engineer",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "Willer is an A&M Computer Science alumni who got his start in the game industry with A&M's very own LIVE Lab. He's participated in Chillenium and mentored multiple Chilleniums since graduation. He's worked as a Software Engineer on multiple projects using Unity and C# and is credited with multiple released titles and software platforms. Currently he is a Software Engineer at Aristocrat Games.  Willer is always eager to help a participant in need, so feel free to reach out!"
+ },
+ {
+   "name": "William Harvey",
+   "company": "Shivoo Media",
+   "jobtitle": "Technical Artist",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "Technical Artist - 5 Years Experience - Texas A&M University\n"
+ }
+]}

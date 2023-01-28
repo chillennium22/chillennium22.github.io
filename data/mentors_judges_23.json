@@ -1,5 +1,12 @@
 {"data":[
- 
+ {
+   "name": "Alex Cavasso",
+   "company": "Revature",
+   "jobtitle": "Full-stack DevOps Engineer",
+   "position": "JUDGE",
+   "profilepicture": "N/A",
+   "bio": "I'm a two-time Chillennium winner who graduated from TAMU in 2020. I've been making games with the Godot Engine for the past 6 years."
+ },
  {
    "name": "Alex Magee",
    "company": "AEM Creations, LLC",
@@ -9,14 +16,21 @@
    "bio": "Alex Magee is a Viz grad from the class of 2019. Since the fall of 2019, he has been the President of AEM Creations, a visual media company specializing in web development, animation, and 3d modeling. In the past three years, AEM Creations has produced 3d materials and animations for a variety of industries including cancer research and oil & gas. Prior to starting his company, he worked as curriculum manager of video games for an educational technology startup in Dallas. Alex has years of experience with Unity and over a decade of experience with GameMaker and loves both playing and making games."
  },
  {
-   "name": "Amanda Golla",
-   "company": "Bungie",
-   "jobtitle": "Associate VFX Artist",
+   "name": "Austin Payne",
+   "company": "Sanzaru Games",
+   "jobtitle": "Gameplay Programmer",
+   "position": "JUDGE",
+   "profilepicture": "",
+   "bio": "Austin Payne is a Gameplay Programmer at Sanzaru Games and a Texas A&M Viz Alumni. During his years at the visualization program, he worked as a Game Designer at LIVE Lab and participated in Chillennium, where he competed in 2015 and helped organize the following years as the Industry Relations chair. After graduating in 2018, he shifted focus and pursued programming in virtual reality development. Since then, he has worked as a VR Developer on different applications and games using Unity and Unreal Engine for the past 5 years."
+ },
+ {
+   "name": "Austin Ruff\n",
+   "company": "Aquifer Motion",
+   "jobtitle": "Senior Unity Engineer",
    "position": "MENTOR",
    "profilepicture": "",
-   "bio": "I am currently working as a technical artist at Virtuix but will begin working at Bungie on January 3rd. I have experience working in Houdini and Unreal Engine and can help others learn about applying to different companies and refining their work in VFX. I was Chillennium director in 2022."
+   "bio": "Hi, I'm Austin!  I went to my first Chillennium in 2016 and graduated from Texas A&M in 2018 with a BS in computer science.  I used to work for the Live Lab on campus.  Since then, I've worked at a couple of video game companies on a few projects."
  },
- 
  {
    "name": "Ben House\n",
    "company": "Bluepoint Games",
@@ -24,6 +38,14 @@
    "position": "JUDGE",
    "profilepicture": "",
    "bio": "I am a Senior Technical Artist at Bluepoint Games in Austin, TX and a Texas A&M Visualization alumni from the Class of 2013. I specialize in procedural tools, content creation, and destruction, primarily using Houdini. Iâ€™ve been making games for the last 8 years, including titles such as NCAA 2014, Madden 25, Variant Limits, Demonâ€™s Souls, and God of War Ragnarok for the PS5. I am also proud to be among the founding members of the first Chillennium Game Jam."
+ },
+  {
+   "name": "Brenden Thomas",
+   "company": "N/A",
+   "jobtitle": "N/A",
+   "position": "JUDGE",
+   "profilepicture": "",
+   "bio": ""
  },
  {
    "name": "Brooke Griffith",
@@ -49,14 +71,69 @@
    "profilepicture": "",
    "bio": "Chase is a Level / Game Designer with over 6 years of game industry experience. He’s been a part of some fantastic indie developer teams, working on 7 titles, 5 being at Schell Games in Pittsburgh, PA. Most recently he has worked on VR titles Until You Fall and I Expect you To Die 2. He is also a Texas A&M Viz 2015 Alumni, guest lecturer, worked in the LIVE Lab, and has competed in past Chillenniums."
  },
- 
  {
-   "name": "Kyle Garbs\n",
-   "company": "Virtuix",
-   "jobtitle": "Game Developer",
+   "name": "Chelsey Gobeli\n",
+   "company": "SciPlay",
+   "jobtitle": "Producer",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "Howdy! I'm Chelsey Gobeli a Producer at SciPlay where I work on our central team supporting our 9+ mobile games. I have an MS and BS degree focusing in Visualization from Texas A&M University. Additionally, I am a co-founder of Chillennium and am excited to see what the participants create this year. "
+ },
+  {
+   "name": "David Santiago",
+   "company": "Insomniac Games",
+   "jobtitle": "Principal Technical Artist",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "For the last 12 years, David has implemented Procedural Systems and tools for Insomniac Games' titles including Sunset Overdrive (Xbox One), Stormland (Oculus Rift), Ratchet and Clank (PS4), Marvelâ€™s Spider-Man, Marvelâ€™s Spider-Man: Miles Morales and Ratchet and Clank: Rift Apart. Previously, David worked over ten years in visual effects and animation on music videos, commercials, and feature films including The Fifth Element, Titanic, Armageddon, The Ant Bully, Sky Captain and the World of Tomorrow, Master and Commander: Far Side of the World, and Black Hawk Down. Publishing 'Creating 3D Effects for Film, TV and Games' in 2004, he continues participating in education and career development."
+ },
+  {
+   "name": "Hira Roberts",
+   "company": "Prairie View A&M Univerisity ",
+   "jobtitle": "Assistant Professor",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "Hira Roberts received her MFA in Digital Art from Louisiana State University and has an undergraduate degree in Architecture. Prior to moving to the United States, she worked at an outsource game development company in Pakistan where she had the chance to work on titles such as Fruit Ninja, Jetpack Joyride, Monster Dash and more."
+ },
+ {
+   "name": "Jason Jamerson",
+   "company": "Louisiana State Universitry",
+   "jobtitle": "Professor",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "15 Years in VFX, Animation, Modeling, and Production Design"
+ },
+  {
+   "name": "Josey Meyer",
+   "company": "Blizzard Entertainment",
+   "jobtitle": "Associate Dungeon Designer",
    "position": "JUDGE",
    "profilepicture": "",
+   "bio": "Josey Meyer is a TAMU Alumni currently working on Diablo IV for the past two years at Blizzard Entertainment. Having previously participated in Chillennium, Josey hopes to give back to the community and help support inspired game developers in their pursuits."
+ },
+  {
+   "name": "Kelly Burroughs",
+   "company": "Marvel Studios",
+   "jobtitle": "Visual Development Coordinator",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "Kelly Burroughs is currently the Visual Development Coordinator at Marvel Studios for all live-action projects. She has worked on notable projects such as Doctor Strange in the Multiverse of Madness, Black Panther: Wakanda Forever, and much more. Kelly is TAMU class of 2017, and since then has worked in the industry for five years at notable studios such as Nickelodeon Animation, DreamWorks Animation Feature, and of course, L.I.V.E Lab. Kelly is passionate about finding ways to improve the production pipeline for Animation/Live-Action/Video Game studios as well as creating a healthy work environment for artists. "
+ },
+ {
+   "name": "Kyle Garbs",
+   "company": "Virtuix",
+   "jobtitle": "Game Developer",
+   "position": "MENTOR",
+   "profilepicture": "",
    "bio": "Visualization Class of 2020, going into my third year at Virtuix, building games for an Omnidirectional VR Treadmill we are developing. "
+ },
+  {
+   "name": "Kyle Purser",
+   "company": "The Fun Pimps",
+   "jobtitle": "Senior Game Programmer",
+   "position": "JUDGE",
+   "profilepicture": "",
+   "bio": "Kyle graduated Texas A&M in 2017 with a degree in Computer Science with minors in Art and Game Design and Development. While attending A&M he worked for the LIVE Lab as a Programmer and later the Lead Developer where he shipped his first game titles. Since graduating he has worked for multiple studios as a generalist engineer with a focus in procedural systems, animation programming, art integration/pipeline, and gameplay. He has worked on games including 'Orcs Must Die! 3' and 'Ready Set Heroes' and works as a Senior Game Programmer for 'The Fun Pimps' who are the studio behind '7 Days to Die'."
  },
  {
    "name": "Marc Aubanel",
@@ -64,9 +141,24 @@
    "jobtitle": "Director of Digital Arts & Engineering",
    "position": "MENTOR",
    "profilepicture": "",
-   "bio": "Preeminent Executive Producer and Media Arts Academic Director with over 20 years experience encompassing 5 academic programs and 50 interactive titles for a combined revenue of over one billion dollars. An inspiring leader established at building, coaching and motivating teams to teach and produce innovative interactive experiences. Well versed in the American and Canadian degree and diploma accreditation process. Accomplished in the creation, funding, pitching, licensing, execution and capitalization of interactive titles. Executive level experience at the largest independent games publisher with global proficiency running their biggest international franchises."
+   "bio": "Marc , Director of DMAE, is a 15 year veteran of video game development and has worked on multiple titles such as FIFA Soccer, Need for Speed Underground and Marvel Nemesis."
  },
- 
+  {
+   "name": "Mike Hayes",
+   "company": "Blizzard Entertainment",
+   "jobtitle": "Software Engineer",
+   "position": "JUDGE",
+   "profilepicture": "",
+   "bio": "Hello! My name is Mike and I've been at Blizzard Entertainment for a little over 5 years. I started out in IT Events setting up network infrastructure around the world for tournaments, press events, trade shows, etc. COVID happened and then I ended up transferring to an internal application team as a Software Engineer working on tooling for employees inside the company. Last year I was fortunate enough to join the Overwatch development team."
+ },
+  {
+   "name": "Nathan Kellman",
+   "company": " Lost Boys Interactive",
+   "jobtitle": "Associate Designer",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "Nathan Kellman is a level designer that has been in the AAA games industry for over a year and a half. He started as an intern at Hangar 13 Games where he was then hired on fulltime as an associate designer working on unannounced projects. Currently he is an associate designer with Lost Boys Interactive working on unannounced projects.Before entering the game industry, Nathan went to Texas AM where he played on the 2015 football team and then was on the Chillennium 2017 committee as co- chair of the Digital Media team. After TAMU, he went to Michigan State to obtain a master's in game design and development where he also interned at a health communication company as their first game design ever.Chillennium is near and dear to his heart because it is where he created his first video game back in 2015 and he loves sharing his passion and expertise with students trying to break into the industry. "
+ },
  {
    "name": "Nick Heltne",
    "company": "MOB Entertainment",
@@ -84,6 +176,14 @@
    "bio": "My specialty is in Game Design and Scripting with Unreal Engine for PC and Virtual Reality platforms with a Bachelors Degree in Computer Science and a Masters Degree in Interactive Technology specializing in Level Design from Southern Methodist University.Over the past years I have worked on multiple arcade virtual reality FPS games for the Virtuix Omni attraction. The games have launched in popular arcades around the United States such as Dave & Busters, Pinballz, Andrettis, etc."
  },
   {
+   "name": "Sola Chang\n",
+   "company": "Blizzard",
+   "jobtitle": "Associate UI/UX Designer",
+   "position": "JUDGE (VIRTUAL)",
+   "profilepicture": "",
+   "bio": ""
+ },
+  {
    "name": "Thomas Richard",
    "company": "Spartacus Studios LLC",
    "jobtitle": "Executive Creative Director",
@@ -98,6 +198,29 @@
    "position": "MENTOR",
    "profilepicture": "",
    "bio": "Tracey L. Moore is an Assistant Professor and the Interim Director of Arts Program at Prairie View A&M University. She earned her BA in Advertising Art at Prairie View A&M University and an MFA in Studio Art with a concentration in Graphic Communications from the University of Houston. She teaches the upper-division courses in the Digital Media Arts program, which includes Layout, Typography and Branding. She has also developed a special laboratory, DesignView Media Center, which is a student-run studio that offers graphic design services to PVAMU departments, student organizations, faculty and staff and provides Digital Media Arts majors with real-world design experience. When she is not in the classroom, Ms. Moore does some freelance graphic design. \"."
+ },
+ {
+   "name": "Tom Richard",
+   "company": "Spartacus Studios",
+   "jobtitle": "Executive Creative Director",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": ""},
+ {
+   "name": "Tyler Padgett",
+   "company": "Infinity Ward",
+   "jobtitle": "Level Designer ",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "Howdy my name is Tyler. I'm currently a level designer at Infinity Ward and was on the team that launched the most recent Call of Duty title MWII. Previously I was a level designer working at Bioware working on Dragon Age IV and other projects. I'm a graduate of TAMU '17 school of Architecture and have been working in the industry for about 6 years now. I was a part of TAGD as an undergrad and love coming back to give talks to university students at PVAMU and TAMU about discovering the path to becoming a designer in the games industry.While not working on games, I'm more than likely playing a boardgame or going out to try some new BBQ. I'm looking forward to attending Chillennium 2023! Whoop! "
+ },
+ {
+   "name": "Vy Lam",
+   "company": "LIVE Lab",
+   "jobtitle": "3D Artist",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "Howdy! My name is Harvey, I'm the Lead Technical Artist at MOB Entertainment, currently working on Poppy Playtime. I have 6+ years working as a TA in games, VR, and other real-time environments. My alumni mater is Texas A&M, Class of '17.\n"
  },
  {
    "name": "William Harvey",

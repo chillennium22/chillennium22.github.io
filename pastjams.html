@@ -36,97 +36,94 @@
                 Chillennium 2022 Games
             </button>
         </div>
-        <div class="biggameslist accordion-hide" id="2022games"></div>
-       <div id="winners"></div>
-        <script>
-            const winnersDiv = document.getElementById("2022games");
-            $.getJSON("data/winners_22.json", function ({ winners }) {
-                winners.forEach((winner) => {
-                    let bgColor = "grey";
-                    if (winner.tag) {
-                        switch (winner.tag) {
-                            case "first":
-                                bgColor = "#AF9500";
-                                break;
-                            case "second":
-                                bgColor = "#C0C0C0";
-                                break;
-                            case "third":
-                                bgColor = "#CD7F32";
-                                break;
-                        }
-                    }
+        <div class="biggameslist accordion-hide" id="2018games">
+            <a href="https://myorek.itch.io/smoothie-sisters-windows-build" target="_blank">
+                <div class="fixedpolaroid">
+                    <img
+                        src="https://img.itch.zone/aW1nLzg1NjkxOTQucG5n/347x500/GcW1Rr.png"
+                    />
+                    <h4>1st Place Winner</h4>
+                    Smoothie Sisters<br />
+                    by Elbert Hoang, Chris Chuang, Meredyth Yorek and Kelton Chesshire
+                </div>
+            </a>
+            <a href="https://ameliarmccarthy.itch.io/painta-and-the-slime-mix-up" target="_blank">
+                <div class="fixedpolaroid">
+                    <img
+                        src="https://img.itch.zone/aW1hZ2UvMTQ2ODk0NS84NTY5NjUzLnBuZw==/794x1000/YZbAh1.png"
+                    />
+                    <h4>2nd Place Winner</h4>
+                    Paints and the Slime Mixup<br />
+                    by Angel Ham, Ryan Mendoza, Madeleine Cadungog and Amelia McCarthy
+                </div>
+            </a>
+            <a href="https://itch.io/jam/chillennium-2022/rate/1468941" target="_blank">
+                <div class="fixedpolaroid">
+                    <img
+                        src="https://img.itch.zone/aW1nLzg1Njk2MjYucG5n/347x500/M42k1t.png"
+                    />
+                    <h4>3rd Place Winner</h4>
+                    Zero out of Five Stars<br />
+                    by Dallas Baker, Cody Bruckerhoff, Greg Burns and Mason Scheible
+                </div>
+            </a>
 
-                    const myStyle = {
-                        card: {
-                            "backgroundColor": bgColor,
-                            "width": "20em",
-                            "text-align": "center",
-                            "padding-block": "1rem",
-                            "border-radius": "15px",
-                        }
-                    }
-
-                    const card = document.createElement("div");
-                    card.classList.add("winner-card")
-                    Object.keys(myStyle.card).forEach(key => {
-                        card.style[key] = myStyle.card[key]
-                    })
-                    card.onclick = () => { window.open(`${winner.link}`, 'newwindow') }
-
-                    const cardCategory = document.createElement("h3");
-                    cardCategory.textContent = winner.category;
-                    cardCategory.style = "font-size: 1.5rem; font-weight: 900; text-decoration: underline";
-
-                    const cardName = document.createElement("h3");
-                    cardName.textContent = winner.name;
-                    cardName.style = "font-size: 1.5rem; font-weight: 800";
-
-                    const cardMembers = document.createElement("ul");
-                    cardMembers.style = "list-style: none; padding: 0";
-                    winner.members.forEach((member) => {
-                        const cardMember = document.createElement("li");
-                        cardMember.textContent = member;
-                        cardMembers.appendChild(cardMember);
-                    });
-
-                    card.appendChild(cardCategory);
-                    card.appendChild(cardName);
-                    card.appendChild(cardMembers);
-                    winnersDiv.appendChild(card);
-                });
-            });
-        </script>
-        <style>
-            #winners {
-                padding: 4rem;
-                box-sizing: border-box;
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-evenly;
-                gap: 1em;
-            }
-        
-            .winner-card {
-                transition: transform .2s ease-in-out;
-            }
-        
-            .winner-card:hover {
-                transform: scale(1.1);
-                cursor: pointer;
-            }
-            .winnersDiv{
-              display: grid;
-              grid-gap: 10px;   
-              grid-template-columns: repeat(auto-fit);
-
-/*               grid-template-columns: repeat(auto-fit, minmax(500px, 700px)); */
-              grid-auto-rows: 170px;
-              grid-auto-flow: dense;
-              justify-content: center;
-            }
-        </style>
+            <a href="https://myorek.itch.io/smoothie-sisters-windows-build" target="_blank">
+                <div class="fixedpolaroid">
+                    <img
+                        src="https://img.itch.zone/aW1nLzg1NjkxOTQucG5n/347x500/GcW1Rr.png"
+                    />
+                    <h4>Best in Sound</h4>
+                     Smoothie Sisters<br />
+                    by Elbert Hoang, Chris Chuang, Meredyth Yorek and Kelton Chesshire
+                </div>
+            </a>
+            <a href="https://jnuccitelli.itch.io/nocturnal-nightclub" target="_blank">
+                <div class="fixedpolaroid">
+                    <img
+                        src="https://img.itch.zone/aW1nLzg1Njg5NjUucG5n/347x500/dSBfMm.png"
+                    />
+                    <h4>Best in Game Design</h4>
+                    Nocturnal Nightclub<br />
+                    by Arjun Kurkal, Alexander Nuccitelli, Joseph Nuccitelli and Jenna Plute
+                </div>
+            </a>
+            <a
+                href="https://onewebdev.itch.io/cake-is-a-lie"
+                target="_blank"
+            >
+                <div class="fixedpolaroid">
+                    <img
+                        src="https://img.itch.zone/aW1hZ2UvMTQ2ODk5NS84NTcwNzg1LmpwZw==/794x1000/hyK%2ByV.jpg"
+                    />
+                    <h4>Best in Programming</h4>
+                    The Cake is a Lie<br />
+                    by Nathan Reddy, Carolyn Nguyen, Dylan Theriot and Vivian Yu
+                </div>
+            </a>
+            <a href="https://samanthemum.itch.io/dungeons-and-drinks" target="_blank">
+                <div class="fixedpolaroid">
+                    <img
+                        src="https://img.itch.zone/aW1nLzg1Njk4NjAucG5n/347x500/L7SSdm.png"
+                    />
+                    <h4>Best in Visuals</h4>
+                    Dungeons and Drinks<br />
+                    by Joey Bush, Sam Hallam, Jocylin Lopez and Timothy Pham
+                </div>
+            </a>
+            <a href="https://mfreaney24.itch.io/necronomimon" target="_blank">
+                <div class="fixedpolaroid">
+                    <img
+                        src="https://img.itch.zone/aW1nLzE1NjE0MDYucG5n/315x250%23c/Vm8gGz.png"
+                    />
+                    <h4>Best in Originality</h4>
+                    Necronomimon<br />
+                    by Alex Rose, Michael Freaney, Keegan McQuin and Rachel Barner
+                </div>
+            </a>
+            
         </div>
+        <div class="biggameslist accordion-hide" id="2022games"></div>
         <div class="listtbox">
             <h1>2018</h1>
             <p>

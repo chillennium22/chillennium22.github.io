@@ -16,6 +16,23 @@
    "bio": "Alex Magee is a Viz grad from the class of 2019. Since the fall of 2019, he has been the President of AEM Creations, a visual media company specializing in web development, animation, and 3d modeling. In the past three years, AEM Creations has produced 3d materials and animations for a variety of industries including cancer research and oil & gas. Prior to starting his company, he worked as curriculum manager of video games for an educational technology startup in Dallas. Alex has years of experience with Unity and over a decade of experience with GameMaker and loves both playing and making games."
  },
  {
+   "name": "Amy Schuetz",
+   "company": "AEM Creations",
+   "jobtitle": "Director of Animation",
+   "position": "JUDGE",
+   "profilepicture": "",
+   "bio": "Amy Schuetz has worked at AEM Creations for the past 3 years producing animations and other time-based media as well as designing UI/UX for interactive experiences.\n"
+ }, 
+ {
+   "name": "Anne Lynch",
+   "company": "Gearbox Software",
+   "jobtitle": "Lighting Artist",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "Anne is currently a Lighting Artist at Gearbox Software where she has worked on titles such as Tiny Tina's Wonderlands and Borderlands 3: Bounty of Blood DLC. Previously, she was an Environment Artist at Playful Corp where she worked on Super Lucky's Tale and several unannounced projects. She is a Texas A&M alumni with her BS and MFA in Visualization and a proud founding member of the Chillennium Game Jam.\n"
+ }, 
+ 
+ {
    "name": "Austin Payne",
    "company": "Sanzaru Games",
    "jobtitle": "Gameplay Programmer",
@@ -63,6 +80,7 @@
    "profilepicture": "",
    "bio": "Chase is a Level / Game Designer with over 6 years of game industry experience. He’s been a part of some fantastic indie developer teams, working on 7 titles, 5 being at Schell Games in Pittsburgh, PA. Most recently he has worked on VR titles Until You Fall and I Expect you To Die 2. He is also a Texas A&M Viz 2015 Alumni, guest lecturer, worked in the LIVE Lab, and has competed in past Chillenniums."
  },
+ 
  {
    "name": "Chelsey Gobeli\n",
    "company": "SciPlay",
@@ -71,7 +89,23 @@
    "profilepicture": "",
    "bio": "Howdy! I'm Chelsey Gobeli a Producer at SciPlay where I work on our central team supporting our 9+ mobile games. I have an MS and BS degree focusing in Visualization from Texas A&M University. Additionally, I am a co-founder of Chillennium and am excited to see what the participants create this year. "
  },
-  {
+ {
+   "name": "Christopher Khuong",
+   "company": "Houston Community College",
+   "jobtitle": "Program Coordinator",
+   "position": "MENTOR",
+   "profilepicture": "",
+   "bio": "Texas A&M Alumni\n"
+ },
+ {
+   "name": "Courtlynn Vail",
+   "company": "N/A",
+   "jobtitle": "Freelancer",
+   "position": "JUDGE",
+   "profilepicture": "",
+   "bio": "Texas A&M Alumni\n"
+ },
+ {
    "name": "David Santiago",
    "company": "Insomniac Games",
    "jobtitle": "Principal Technical Artist",
@@ -87,6 +121,14 @@
    "profilepicture": "",
    "bio": "Hira Roberts received her MFA in Digital Art from Louisiana State University and has an undergraduate degree in Architecture. Prior to moving to the United States, she worked at an outsource game development company in Pakistan where she had the chance to work on titles such as Fruit Ninja, Jetpack Joyride, Monster Dash and more."
  },
+ {
+   "name": "Jake Ross",
+   "company": "Cloud Imperium Games",
+   "jobtitle": "Lead Producer",
+   "position": "JUDGE",
+   "profilepicture": "",
+   "bio": "I have been working in Production for Cloud Imperium Games since January 2014.  Our project, Star Citizen, is an online video game focused on first-person gameplay and universe simulation. I am a certified SAFe 5 Agilist, Project Management Professional (PMP), Professional Scrum Master (PSM1), and Team Kanban Practitioner (TPK). My current role as a Lead Producer at CIG includes but is not limited to:\n-Accountable along with our Game Directors for the successful planning and execution of project goals for Star Citizen.\n-Accountable for communicating and visualizing when deliverables can be expected to be completed via project schedules.\n-Managing the Star Citizen Production Team, a team of 20+ producers spread across our Austin, LA, Manchester, and Frankfurt studios, focusing on individual career growth, adherence to best practices, and training & development of team members.\n"
+ }, 
  {
    "name": "Jason Jamerson",
    "company": "Louisiana State Universitry",
@@ -135,6 +177,14 @@
    "profilepicture": "",
    "bio": "Marc , Director of DMAE, is a 15 year veteran of video game development and has worked on multiple titles such as FIFA Soccer, Need for Speed Underground and Marvel Nemesis."
  },
+ {
+   "name": "Michael Rugh",
+   "company": "Texas A&M University",
+   "jobtitle": "Postdoctoral Researcher",
+   "position": "JUDGE",
+   "profilepicture": "",
+   "bio": "Dr. Rugh is a postdoctoral researcher leading teams of researchers at Texas A&M University to explore the creation, implementation, and evaluation of game-based learning. He has a PhD in Curriculum and Instruction, an MS in Mathematics, and a BS in Mathematics. In 2022, Dr. Rugh taught a Python-based game design course at one of Texas A&M University's Aggie STEM Summer Camp for middle school students. He is also an avid gamer and is committed to providing fair evaluations of Chillenium games.\n"
+ },
   {
    "name": "Mike Hayes",
    "company": "Blizzard Entertainment",
@@ -166,6 +216,14 @@
    "position": "MENTOR",
    "profilepicture": "",
    "bio": "My specialty is in Game Design and Scripting with Unreal Engine for PC and Virtual Reality platforms with a Bachelors Degree in Computer Science and a Masters Degree in Interactive Technology specializing in Level Design from Southern Methodist University.Over the past years I have worked on multiple arcade virtual reality FPS games for the Virtuix Omni attraction. The games have launched in popular arcades around the United States such as Dave & Busters, Pinballz, Andrettis, etc."
+ },
+ {
+   "name": "Sean Tracy",
+   "company": "Cloud Imperium Games",
+   "jobtitle": "Senior Director, Tools and Tech Art",
+   "position": "JUDGE",
+   "profilepicture": "",
+   "bio": "Sean Tracy has been working at Cloud Imperium Games, on Star Citizen and Squadron 42, since 2014.  Sean holds the critical role of Senior Director, Tools and Tech Art at Cloud Imperium Games HQ in Los Angeles, where he is responsible for overseeing the technical art, technical animation and tools programming departments for the studios worldwide. Prior to his tenure with Cloud Imperium, Sean worked for Crytek in Germany and in the U.S., as CryEngine Business Development Manager. At Crytek, Sean played a major role in the research, development, testing and engineering of its world leading game engine technology CryEngine. He worked within the CryEngine team during the development of Crysis Wars, Crysis 2, Crysis 3, Ryse: Son of Rome and Warface.  Sean also helped in the development of other major game titles from companies that had licensed the CryEngine, including titles such as Evolve, State of Decay, Kingdom Come Deliverance, MechWarrior Online and many others. Sean also co-authored the first two books to exist on CryENGINE usage and application, the “CryENGINE 3 Cookbook” and “CryENGINE 3 Game Development: Beginner’s Guide,” which teach how to use the CryENGINE 3 free SDK, the next-generation, real-time game development. Further to this, Sean is an official program advisory with the University of California Riverside advising on the Transformative Leadership in Disruptive Times Program and has was recently invited to as a speaker on a panel for Texas A&M - Visualization. Sean is a well-respected expert in games technology, animation and game development.\n"
  },
   {
    "name": "Sola Chang\n",
@@ -215,61 +273,9 @@
    "position": "MENTOR",
    "profilepicture": "",
    "bio": "Howdy! My name is Harvey, I'm the Lead Technical Artist at MOB Entertainment, currently working on Poppy Playtime. I have 6+ years working as a TA in games, VR, and other real-time environments. My alumni mater is Texas A&M, Class of '17.\n"
- },
-  {
-   "name": "Courtlynn Vail",
-   "company": "N/A",
-   "jobtitle": "Freelancer",
-   "position": "JUDGE",
-   "profilepicture": "",
-   "bio": "Texas A&M Alumni\n"
- },
- {
-   "name": "Christopher Khuong",
-   "company": "Houston Community College",
-   "jobtitle": "Program Coordinator",
-   "position": "MENTOR",
-   "profilepicture": "",
-   "bio": "Texas A&M Alumni\n"
- },
- {
-   "name": "Michael Rugh",
-   "company": "Texas A&M University",
-   "jobtitle": "Postdoctoral Researcher",
-   "position": "JUDGE",
-   "profilepicture": "",
-   "bio": "Dr. Rugh is a postdoctoral researcher leading teams of researchers at Texas A&M University to explore the creation, implementation, and evaluation of game-based learning. He has a PhD in Curriculum and Instruction, an MS in Mathematics, and a BS in Mathematics. In 2022, Dr. Rugh taught a Python-based game design course at one of Texas A&M University's Aggie STEM Summer Camp for middle school students. He is also an avid gamer and is committed to providing fair evaluations of Chillenium games.\n"
- }, 
- {
-   "name": "Anne Lynch",
-   "company": "Gearbox Software",
-   "jobtitle": "Lighting Artist",
-   "position": "MENTOR",
-   "profilepicture": "",
-   "bio": "Anne is currently a Lighting Artist at Gearbox Software where she has worked on titles such as Tiny Tina's Wonderlands and Borderlands 3: Bounty of Blood DLC. Previously, she was an Environment Artist at Playful Corp where she worked on Super Lucky's Tale and several unannounced projects. She is a Texas A&M alumni with her BS and MFA in Visualization and a proud founding member of the Chillennium Game Jam.\n"
- }, 
- {
-   "name": "Amy Schuetz",
-   "company": "AEM Creations",
-   "jobtitle": "Director of Animation",
-   "position": "JUDGE",
-   "profilepicture": "",
-   "bio": "Amy Schuetz has worked at AEM Creations for the past 3 years producing animations and other time-based media as well as designing UI/UX for interactive experiences.\n"
- }, 
- {
-   "name": "Jake Ross",
-   "company": "Cloud Imperium Games",
-   "jobtitle": "Lead Producer",
-   "position": "JUDGE",
-   "profilepicture": "",
-   "bio": "I have been working in Production for Cloud Imperium Games since January 2014.  Our project, Star Citizen, is an online video game focused on first-person gameplay and universe simulation. I am a certified SAFe 5 Agilist, Project Management Professional (PMP), Professional Scrum Master (PSM1), and Team Kanban Practitioner (TPK). My current role as a Lead Producer at CIG includes but is not limited to:\n-Accountable along with our Game Directors for the successful planning and execution of project goals for Star Citizen.\n-Accountable for communicating and visualizing when deliverables can be expected to be completed via project schedules.\n-Managing the Star Citizen Production Team, a team of 20+ producers spread across our Austin, LA, Manchester, and Frankfurt studios, focusing on individual career growth, adherence to best practices, and training & development of team members.\n"
- }, 
-  {
-   "name": "Sean Tracy",
-   "company": "Cloud Imperium Games",
-   "jobtitle": "Senior Director, Tools and Tech Art",
-   "position": "JUDGE",
-   "profilepicture": "",
-   "bio": "Sean Tracy has been working at Cloud Imperium Games, on Star Citizen and Squadron 42, since 2014.  Sean holds the critical role of Senior Director, Tools and Tech Art at Cloud Imperium Games HQ in Los Angeles, where he is responsible for overseeing the technical art, technical animation and tools programming departments for the studios worldwide. Prior to his tenure with Cloud Imperium, Sean worked for Crytek in Germany and in the U.S., as CryEngine Business Development Manager. At Crytek, Sean played a major role in the research, development, testing and engineering of its world leading game engine technology CryEngine. He worked within the CryEngine team during the development of Crysis Wars, Crysis 2, Crysis 3, Ryse: Son of Rome and Warface.  Sean also helped in the development of other major game titles from companies that had licensed the CryEngine, including titles such as Evolve, State of Decay, Kingdom Come Deliverance, MechWarrior Online and many others. Sean also co-authored the first two books to exist on CryENGINE usage and application, the “CryENGINE 3 Cookbook” and “CryENGINE 3 Game Development: Beginner’s Guide,” which teach how to use the CryENGINE 3 free SDK, the next-generation, real-time game development. Further to this, Sean is an official program advisory with the University of California Riverside advising on the Transformative Leadership in Disruptive Times Program and has was recently invited to as a speaker on a panel for Texas A&M - Visualization. Sean is a well-respected expert in games technology, animation and game development.\n"
  }
+  
+ 
+ 
+  
 ]}

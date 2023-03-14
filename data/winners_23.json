@@ -1,0 +1,61 @@
+{
+    "winners": [
+        {
+            "category": "1st Place Winner",
+            "name": "Hearts On The Line",
+            "members": ["Greg Burns", "Jake Hamilton", "Mason Scheible", "Jacob Miller"],
+            "link": "https://j123r.itch.io/heartsontheline",
+            "tag": "first"
+        },
+        {
+            "category": "2nd Place Winner",
+            "name": "Pulse",
+            "members": [""],
+            "link": "https://redsyi.itch.io/pulse",
+            "tag": "second"
+        },
+        {
+            "category": "3rd Place Winner",
+            "name": "Heart Potato",
+            "members": ["Felipe Echeverry", "Claudia McMillan","Saeed Rezvan","Hillary Zheng"],
+            "link": "https://fecheverry.itch.io/heartpotato",
+            "tag": "third"
+        },
+        {
+            "category": "Best in Game Design",
+            "name": "Bit/terness",
+            "members": ["Alex Nguyen", "Jackson Gray", "Stefan Salaices", "Abby Funderburk"],
+            "link": "https://kyuuimew.itch.io/bit-terness"
+        },
+        {
+            "category": "Best in Programming",
+            "name": "Battery Buddies",
+            "members": [""],
+            "link": "https://safetydad.itch.io/battery-buddies"
+        },
+        {
+            "category": "Best in Sound",
+            "name": "Heart Heist",
+            "members": ["Alexander Nuccitelli", "Arjun Kurkal", "Jenna Plute", "Joseph Nuccitelli"],
+            "link": "https://jnuccitelli.itch.io/heart-heist"
+        },
+        {
+            "category": "Best in Originality",
+            "name": "Heart2Heart",
+            "members": [""],
+            "link": "https://cyoon99.itch.io/heart2heart"
+        },
+		{
+            "category": "Best in Visuals",
+            "name": "Break Free",
+            "members": ["Dallas Coggins", "Peter Schlenker", "Carol Geng", "Casey Pei"],
+            "link": "https://pengso0o.itch.io/break-free"
+        },
+		{
+            "category": "Honourable Mention for Best in Visuals",
+            "name": "MetroBEATdown",
+            "members": ["Alex Robinson", "Emmalie Hall", "Bryson Kennedy", "Trevor Holman"],
+            "link": "https://malixjanon.itch.io/metrobeatdown"
+        },
+    ]
+}

@@ -38,29 +38,84 @@
 
 <!--         <img src="media/banner/Chillenium2023_Banner_Final.gif" class="titlebanner" /> -->
        <img src="media/HomePage-Header.png" style="width:100%;height:15%"/> 
-        <div class="row" >
-          <div class="column" style="background-color:rgba(175, 168, 189, 0.5);height:350px;padding: 30px;">
-            <h1>GET HYPED</h1>
-            <p>Chillennium 2023 is on February 24th-26th! </p>
-          </div>
-          <div class="column" style="background-color:rgba(175, 168, 189, 0.5);height:350px;padding: 1px;">
-          
-<!--                     <video width="90%" autoplay>
-                    <source src="media/Chilleniumteaserfinal.mp4" type="video/mp4">
-                    </video> -->
-                    <iframe
-                        width="90%"
-                        height="100%"
-                        src="media/Chilleniumteaserfinal.mp4"
-                        title="Hype Video"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen
-                    ></iframe>
- 
+       <div id="winners"></div>
+        <script>
+            const winnersDiv = document.getElementById("winners");
+            $.getJSON("data/winners_23.json", function ({ winners }) {
+                winners.forEach((winner) => {
+                    let bgColor = "grey";
+                    if (winner.tag) {
+                        switch (winner.tag) {
+                            case "first":
+                                bgColor = "#AF9500";
+                                break;
+                            case "second":
+                                bgColor = "#C0C0C0";
+                                break;
+                            case "third":
+                                bgColor = "#CD7F32";
+                                break;
+                        }
+                    }
 
-        </div>
-        </div
+                    const myStyle = {
+                        card: {
+                            "backgroundColor": bgColor,
+                            "width": "20em",
+                            "text-align": "center",
+                            "padding-block": "1rem",
+                            "border-radius": "15px",
+                        }
+                    }
+
+                    const card = document.createElement("div");
+                    card.classList.add("winner-card")
+                    Object.keys(myStyle.card).forEach(key => {
+                        card.style[key] = myStyle.card[key]
+                    })
+                    card.onclick = () => {window.open(`${winner.link}`, 'newwindow')}
+
+                    const cardCategory = document.createElement("h3");
+                    cardCategory.textContent = winner.category;
+                    cardCategory.style = "font-size: 1.5rem; font-weight: 900; text-decoration: underline";
+
+                    const cardName = document.createElement("h3");
+                    cardName.textContent = winner.name;
+                    cardName.style = "font-size: 1.5rem; font-weight: 800";
+
+                    const cardMembers = document.createElement("ul");
+                    cardMembers.style = "list-style: none; padding: 0";
+                    winner.members.forEach((member) => {
+                        const cardMember = document.createElement("li");
+                        cardMember.textContent = member;
+                        cardMembers.appendChild(cardMember);
+                    });
+
+                    card.appendChild(cardCategory);
+                    card.appendChild(cardName);
+                    card.appendChild(cardMembers);
+                    winnersDiv.appendChild(card);
+                });
+            });
+        </script>
+        <style>
+            #winners {
+                padding: 4rem;
+
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                gap: 1em;
+            }
+
+            .winner-card {
+                transition: transform .2s ease-in-out;
+            }
+            .winner-card:hover {
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+        </style>
             </br>
             </br>
         <div class="row" >
